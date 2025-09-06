@@ -1,0 +1,11 @@
+redo/clean up db generation
+
+one list of team rosters (team: players)
+one master stats list
+(grab xg from moneypuck along the way before writing seasons to master stats list?)
+
+
+1. update rosters
+2. update player stats (with xg each season)
+3. pull player stats to populate player objects
+4. crunch data

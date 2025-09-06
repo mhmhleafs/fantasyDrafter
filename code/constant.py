@@ -1,0 +1,40 @@
+ROSTER_FILE = "ALL_ROSTERS.json"
+PLAYER_OBJECTS_FILE = "ALL_PLAYER_OBJECTS.json"
+LINES_OBJECTS_FILE = "LINE_OBJECTS.json"
+LINES_EXPORT_FILE = "LINE_EXPORT.csv"
+CURRENT_SEASON = 20242025
+
+TEAM_CODES = [
+"ANA",
+"BOS",
+"BUF",
+"CAR",
+"CBJ",
+"CGY",
+"CHI",
+"COL",
+"DAL",
+"DET",
+"EDM",
+"FLA",
+"LAK",
+"MIN",
+"MTL",
+"NJD",
+"NSH",
+"NYI",
+"NYR",
+"OTT",
+"PHI",
+"PIT",
+"SEA",
+"SJS",
+"STL",
+"TBL",
+"TOR",
+"UTA",
+"VAN",
+"VGK",
+"WPG",
+"WSH"
+]
