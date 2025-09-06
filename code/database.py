@@ -158,7 +158,6 @@ def add_xg(allPlayers):
 	targetStatCols = get_target_stat_columns(targetStats)
 
 	focusedMpData = []
-
 	#for each year
 	for year in mpData.values():
 		singleYearTempStats = []
@@ -188,14 +187,19 @@ def add_xg(allPlayers):
 	for player in allPlayers:
 		for year in focusedMpData:
 			for mpPlayerStats in year:
-				player.update_xg(mpPlayerStats["season"], mpPlayerStats["I_F_xGoals"])
+				if(mpPlayerStats["playerId"] == str(player.id)):
+					player.update_xg(mpPlayerStats["season"], mpPlayerStats["I_F_xGoals"])
 
 def lines_to_json(lines):
 	fp = open(f"../db/{constant.LINES_OBJECTS_FILE}", "w+")
 
-	#print(lines)
-
 	json.dump(lines, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
+
+	print(lines[0])
+	print(lines[1])
+	print(lines[2])
+	print(lines[3])
+	print(lines[-1])
 
 	with open(f"../db/{constant.LINES_EXPORT_FILE}", mode='w', newline='') as file:
 		fieldnames = lines[0].keys()

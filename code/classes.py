@@ -59,10 +59,13 @@ class Player:
 
 		for season in range(constant.CURRENT_SEASON, constant.CURRENT_SEASON - (10001 * seasonCount), -10001):
 			try:
-				tempSeason = self.seasons[str(season)]
-				tempSeason["season"] = season
+				tempSeason = {}
+				
 				tempSeason["id"] = self.id
+				tempSeason["season"] = season
 				tempSeason["name"] = self.name
+				tempSeason.update(self.seasons[str(season)])
+
 				ret.append(tempSeason)
 			except:
 				#ends loop if target out of range of seasons played
