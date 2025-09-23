@@ -5,9 +5,10 @@ import inspect
 import math
 import csv
 
-from classes import *
+from unidecode import unidecode
 
-myself = lambda: inspect.stack()[1][3]
+from helpers import *
+from classes import *
 
 def update_rosters():
 	print(f"{myself()}: Updating rosters...")
@@ -37,19 +38,6 @@ def update_rosters():
 
 	print('Process finished.')
 
-def get_all_player_ids():
-	#go through every team
-	masterList = []
-	fp = open(f"../db/{constant.ROSTER_FILE}")
-	allRosters = json.load(fp)
-
-	for team in allRosters:
-		print(team["teamCode"])
-		for player in (team["forwards"] + team["defensemen"]):
-			masterList.append(player["id"])
-	
-	print(f"{myself()}: ...all player list returning with count: {len(masterList)}")
-	return masterList
 
 def update_player_objects():
 	print(f"{myself()}: updating player stats...")
@@ -74,6 +62,14 @@ def update_player_objects():
 		target = math.ceil(len(playerList) / 20)
 		print(f"Populating stats: [{count}/{len(playerList)}] {current * '|'}{(target - current) * '.'}", end='\r')
 		count += 1
+		
+		#some players no longer in NHL will error out, skip them
+		try:
+			playerData["currentTeamAbbrev"]
+		except:
+			continue
+
+		positions = get_yahoo_position(f"{playerData["firstName"]["default"]} {playerData["lastName"]["default"]}")
 
 		nhlSeasons = {}
 		for season in playerData["seasonTotals"]:
@@ -83,6 +79,7 @@ def update_player_objects():
 													"goals" : season["goals"],
 													"assists" : season["assists"],
 													"points" : season["points"],
+													"fanPts" : 3 * season["goals"] + 2 * season["assists"],
 													"shp" : season["shootingPctg"]
 												}
 		allPlayerList.append(
@@ -94,7 +91,8 @@ def update_player_objects():
 				"seasons" : nhlSeasons,
 				"age" : 2025 - int((playerData["birthDate"]).split('-')[0]),
 				"team" : playerData["currentTeamAbbrev"],
-				"position" : playerData["position"]
+				"position" : playerData["position"],
+				"positions" : positions
 				}
 			)
 
@@ -102,7 +100,22 @@ def update_player_objects():
 	json.dump(allPlayerList, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
 	fp.close()
 
-def get_player_objects():
+def get_yahoo_position(playerName):
+	fp = open(f"../db/{constant.YAHOO_RAW}", "r")
+	playerData = json.load(fp)
+	fp.close()
+
+	if(not (any(unidecode(playerName) in pdata["name"] for pdata in playerData))):
+		print(f"no match for {playerName}")
+	else:
+		for yplayer in playerData:
+			if(unidecode(playerName) == yplayer["name"]):
+				return yplayer["eligible_positions"]
+	return ["Util"]
+	#quit()
+
+def get_player_objects(seasons=-1):
+	print(f"{myself()}(seasons={seasons})")
 	fp = open(f"../db/{constant.PLAYER_OBJECTS_FILE}", "r")
 	playerObjects = json.load(fp)
 
@@ -110,36 +123,25 @@ def get_player_objects():
 
 	for player in playerObjects:
 		#THIS IS WHERE FILTRATION HAPPENS
-		if(len(player["seasons"]) >= 5):
+		if(len(player["seasons"]) >= seasons):
 			temp = Player()
 			temp.construct_from_json(player)
 
-			allPlayers.append(temp)
+			if("20242025" in temp.seasons and "20232024" in temp.seasons):
+				allPlayers.append(temp)
 
 	return allPlayers
 
-def get_target_stat_columns(targets):
-	fp = open("../db/moneypuck/20202021_stats.csv")
+def add_stats(allPlayers, years, ignoreCurrentYear=False):
+	print(f"{myself()}(allPlayers[{len(allPlayers)}], years={years})")
+	#for each player
+	for player in allPlayers[:]:
+		if(player.surname in ["Petrovic"]):
+			allPlayers.remove(player)
+			continue
+		player.weigh_stat('shp', years, ignoreCurrentYear)
 
-	targetStatColumns = {}
-
-	columns = fp.readline().split(',')
-	for stat in targets:
-		targetStatColumns[stat] = columns.index(stat)
-
-	fp.close()
-
-	return targetStatColumns
-
-def add_xg(allPlayers):
-
-	years = [
-		"20202021",
-		"20212022",
-		"20222023",
-		"20232024",
-		"20242025"
-	]
+def DEPRECATED_add_xg(allPlayers, years):
 
 	mpData = {}
 
@@ -184,27 +186,101 @@ def add_xg(allPlayers):
 				singleYearTempStats.append(singlePlayerTempStats)
 		focusedMpData.append(singleYearTempStats)
 
-	for player in allPlayers:
+	#for each player
+	for player in allPlayers[:]:
+
+		#for every year of moneypuck data
 		for year in focusedMpData:
+
+			#for every line in the year's data
 			for mpPlayerStats in year:
+
+				#if current line matches current player, add xg to their season data
 				if(mpPlayerStats["playerId"] == str(player.id)):
 					player.update_xg(mpPlayerStats["season"], mpPlayerStats["I_F_xGoals"])
+					player.update_gPERxg(mpPlayerStats["season"])
+		try:
+			cur = player.seasons[str(constant.CURRENT_SEASON)]
+		except:
+			allPlayers.remove(player)
+			continue
+
+		try:
+			prev = player.seasons["20232024"]
+		except:
+			allPlayers.remove(player)
+			continue
+
+		ignoreCurYear = True
+
+		#player.add_avg_gPERxg(ignoreCurYear)
+
+		player.weigh_stat("shp", ignoreCurYear)
+
+		'''
+		try:
+			player.pred_gPERgp_shp = ((prev["goals"]) * (player.AVGshp / prev["shp"])) / prev["gp"]
+		except:
+			allPlayers.remove(player)
+			player.pred_gPERgp_shp = -1
+			player.pred_gPERxg = -1
+			player.avg_gPERgp = -1
+
+		player.add_avg_gPERgp(ignoreCurYear)
+		'''
+
+def predictions_to_csv(players):
+	print(f"{myself()}(players[{len(players)}])")
+
+	predictionLines = []
+
+	for player in players:
+		temp = player.to_prediction_line()
+		if(temp["gp"] > 40 and temp["goals"] > 13):
+			predictionLines.append(temp)
+
+	print(f"exporting: {len(predictionLines)} players...")
+	#print(predictionLines)
+
+	with open(f"../db/{constant.PREDICTION_FILE}", mode='w', newline='') as file:
+		fieldnames = predictionLines[0].keys()
+		writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+		writer.writeheader()
+
+		for line in predictionLines:
+			writer.writerow(line)
+	
+
+def shp_to_csv(players):
+	predictionLines = []
+
+	for player in players:
+		temp = player.to_shp_data()
+		if(temp["gp"] > 40 and temp["goals"] > 13):
+			predictionLines.append(temp)
+
+	#print(predictionLines)
+
+	with open(f"../db/shp_pred.csv", mode='w', newline='') as file:
+		fieldnames = predictionLines[0].keys()
+		writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+		writer.writeheader()
+
+		for line in predictionLines:
+			writer.writerow(line)
 
 def lines_to_json(lines):
 	fp = open(f"../db/{constant.LINES_OBJECTS_FILE}", "w+")
 
+	print(f"Writing to {constant.LINES_OBJECTS_FILE}")
+	
 	json.dump(lines, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
-
-	print(lines[0])
-	print(lines[1])
-	print(lines[2])
-	print(lines[3])
-	print(lines[-1])
 
 	with open(f"../db/{constant.LINES_EXPORT_FILE}", mode='w', newline='') as file:
 		fieldnames = lines[0].keys()
 		writer = csv.DictWriter(file, fieldnames=fieldnames)
-
 
 		writer.writeheader()
 

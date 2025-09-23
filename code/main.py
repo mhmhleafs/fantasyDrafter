@@ -2,17 +2,23 @@ from database import *
 
 #update_rosters()
 #update_player_objects()
-allPlayers = get_player_objects()
 
-add_xg(allPlayers)
+years = [
+		"20222023",
+		"20232024",
+		"20242025"
+	]
 
-allLines = []
+allPlayers = get_player_objects(len(years))
 
-for player in allPlayers:
-	lines = player.export_as_lines(20)
-	for line in lines:
-		allLines.append(line)
+add_stats(allPlayers, years, ignoreCurrentYear=False)
+#add_xg(allPlayers, years)
 
-lines_to_json(allLines)
+predictions_to_csv(allPlayers)
+
+#lines_to_json(allLines)
 
 #matthews = 8479318
+
+#TODO: calculate and spit out weighted xg/gp as export
+#use 20242025 as benchmark to determine if that or shp regression is better predictor

@@ -24,14 +24,15 @@ class Player:
 
 	def __str__(self):
 		retString = (
-		f"[{self.id}] {self.name}\n"
-		f"--surname : {self.surname}\n"
-		f"--seasonsPlayed : {self.seasonsPlayed}\n"
-		f"--position : {self.position}\n"
-		f"--age : {self.age}\n")
+		f"[{self.id}] {self.name}:\n")
 
+		for key, value in self.__dict__.items():
+			if(key not in ["id", "name", "seasons"]):
+				retString += f"\t{key}: {value}\n"
+
+		retString += "\tSeasons:\n"
 		for season in self.seasons:
-			retString += f"--{season} : {self.seasons[season]}\n"
+			retString += f"\t\t{season} : {self.seasons[season]}\n"
 
 		return retString
 	
@@ -45,14 +46,7 @@ class Player:
 				"age" : self.age,
 				"team" : self.team,
 				"position" : self.position
-			}
-	
-	def update_xg(self, season, xg):
-		try:
-			self.seasons[season]["xg"] = xg
-		except:
-			return
-			
+			}			
 
 	def get_last_x_seasons(self, seasonCount):
 		ret = []
@@ -69,7 +63,7 @@ class Player:
 				ret.append(tempSeason)
 			except:
 				#ends loop if target out of range of seasons played
-				break
+				continue
 		
 		return ret
 
@@ -80,3 +74,33 @@ class Player:
 			lines.append(season)
 
 		return lines
+
+	def weigh_stat(self, stat, years, excludeCurrentYear=False):
+		totalGP = 0
+		totalStat = 0.0
+		for season in self.seasons:
+			if(excludeCurrentYear and season == "20242025"):
+				continue
+			if(season in years): #if recent enough season
+				curSeason = self.seasons[season]
+				totalGP += curSeason['gp']
+				totalStat += curSeason['gp'] * curSeason[stat]
+
+		try:
+			setattr(self, f"AVG{stat}", totalStat / totalGP)
+		except:
+			print(self)
+			quit()
+
+	#print shp and xg predicted goals (from before 20242025) and then the 20242025 stats as well, to compare methods
+	def to_prediction_line(self):
+		retDict = {	"id"	:	self.id,
+					"position"	:	self.position,
+					"name"	:	self.name,
+					"surname"	:	self.surname,
+					"AVGshp"	:	self.AVGshp
+			 }
+		retDict = retDict | self.seasons[str(constant.CURRENT_SEASON)] #merge
+		
+		return retDict
+	
