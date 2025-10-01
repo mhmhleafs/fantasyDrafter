@@ -1,11 +1,10 @@
-redo/clean up db generation
+1. figure out how to use 20202021-20232024 to get avg xg (weighted by gp)
+2. also get actual g
+3. calculate normal gAboveXG
+4. predict 20242025 g
+5. compare predicted g and shp regression as models
 
-one list of team rosters (team: players)
-one master stats list
-(grab xg from moneypuck along the way before writing seasons to master stats list?)
+6. project assists?
 
-
-1. update rosters
-2. update player stats (with xg each season)
-3. pull player stats to populate player objects
-4. crunch data
+7. factor age into the variables
+8. logistic regression to weigh age, g, gAboveXG, xg???

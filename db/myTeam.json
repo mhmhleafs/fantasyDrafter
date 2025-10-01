@@ -1,0 +1,137 @@
+[
+   {
+      "id": 8479343,
+      "name": "Clayton Keller",
+      "surname": "Keller",
+      "seasonsPlayed": 9,
+      "age": 27,
+      "team": "UTA",
+      "positions": [
+         "LW",
+         "RW"
+      ],
+      "yahooId": 7115
+   },
+   {
+      "id": 8479542,
+      "name": "Brandon Hagel",
+      "surname": "Hagel",
+      "seasonsPlayed": 6,
+      "age": 27,
+      "team": "TBL",
+      "positions": [
+         "LW",
+         "RW"
+      ],
+      "yahooId": 7264
+   },
+   {
+      "id": 8482078,
+      "name": "Lucas Raymond",
+      "surname": "Raymond",
+      "seasonsPlayed": 4,
+      "age": 23,
+      "team": "DET",
+      "positions": [
+         "RW"
+      ],
+      "yahooId": 8644
+   },
+   {
+      "id": 8475913,
+      "name": "Mark Stone",
+      "surname": "Stone",
+      "seasonsPlayed": 13,
+      "age": 33,
+      "team": "VGK",
+      "positions": [
+         "RW"
+      ],
+      "yahooId": 5152
+   },
+   {
+      "id": 8480036,
+      "name": "Miro Heiskanen",
+      "surname": "Heiskanen",
+      "seasonsPlayed": 7,
+      "age": 26,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 7518
+   },
+   {
+      "id": 8476892,
+      "name": "Colton Parayko",
+      "surname": "Parayko",
+      "seasonsPlayed": 10,
+      "age": 32,
+      "team": "STL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 5777
+   },
+   {
+      "id": 8485366,
+      "name": "Matthew Schaefer",
+      "surname": "Schaefer",
+      "seasonsPlayed": 0,
+      "age": 18,
+      "team": "NYI",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 33423
+   },
+   {
+      "id": 8478449,
+      "name": "Roope Hintz",
+      "surname": "Hintz",
+      "seasonsPlayed": 7,
+      "age": 29,
+      "team": "DAL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 6791
+   },
+   {
+      "id": 8475810,
+      "name": "Bryan Rust",
+      "surname": "Rust",
+      "seasonsPlayed": 11,
+      "age": 33,
+      "team": "PIT",
+      "positions": [
+         "RW"
+      ],
+      "yahooId": 5053
+   },
+   {
+      "id": 8476455,
+      "name": "Gabriel Landeskog",
+      "surname": "Landeskog",
+      "seasonsPlayed": 11,
+      "age": 33,
+      "team": "COL",
+      "positions": [
+         "LW"
+      ],
+      "yahooId": 5363
+   },
+   {
+      "id": 8475794,
+      "name": "Tyler Seguin",
+      "surname": "Seguin",
+      "seasonsPlayed": 15,
+      "age": 33,
+      "team": "DAL",
+      "positions": [
+         "C",
+         "RW"
+      ],
+      "yahooId": 4962
+   }
+]

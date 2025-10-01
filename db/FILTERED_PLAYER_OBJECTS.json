@@ -1,0 +1,2663 @@
+[
+   {
+      "id": 8481641,
+      "name": "Joel Kiviranta",
+      "surname": "Kiviranta",
+      "seasonsPlayed": 6,
+      "seasons": {
+         "20192020": {
+            "gp": 11,
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "fanPts": 3,
+            "shp": 0.077
+         },
+         "20202021": {
+            "gp": 26,
+            "goals": 6,
+            "assists": 5,
+            "points": 11,
+            "fanPts": 28,
+            "shp": 0.194
+         },
+         "20212022": {
+            "gp": 56,
+            "goals": 1,
+            "assists": 6,
+            "points": 7,
+            "fanPts": 15,
+            "shp": 0.017
+         },
+         "20222023": {
+            "gp": 70,
+            "goals": 8,
+            "assists": 1,
+            "points": 9,
+            "fanPts": 26,
+            "shp": 0.094118
+         },
+         "20232024": {
+            "gp": 56,
+            "goals": 3,
+            "assists": 6,
+            "points": 9,
+            "fanPts": 21,
+            "shp": 0.0625
+         },
+         "20242025": {
+            "gp": 79,
+            "goals": 16,
+            "assists": 7,
+            "points": 23,
+            "fanPts": 62,
+            "shp": 0.190476
+         }
+      },
+      "age": 29,
+      "team": "COL",
+      "positions": [
+         "LW"
+      ],
+      "yahooId": 8273
+   },
+   {
+      "id": 8476455,
+      "name": "Gabriel Landeskog",
+      "surname": "Landeskog",
+      "seasonsPlayed": 11,
+      "seasons": {
+         "20112012": {
+            "gp": 82,
+            "goals": 22,
+            "assists": 30,
+            "points": 52,
+            "fanPts": 126,
+            "shp": 0.0815
+         },
+         "20122013": {
+            "gp": 36,
+            "goals": 9,
+            "assists": 8,
+            "points": 17,
+            "fanPts": 43,
+            "shp": 0.0826
+         },
+         "20132014": {
+            "gp": 81,
+            "goals": 26,
+            "assists": 39,
+            "points": 65,
+            "fanPts": 156,
+            "shp": 0.1171
+         },
+         "20142015": {
+            "gp": 82,
+            "goals": 23,
+            "assists": 36,
+            "points": 59,
+            "fanPts": 141,
+            "shp": 0.1075
+         },
+         "20152016": {
+            "gp": 75,
+            "goals": 20,
+            "assists": 33,
+            "points": 53,
+            "fanPts": 126,
+            "shp": 0.1183
+         },
+         "20162017": {
+            "gp": 72,
+            "goals": 18,
+            "assists": 15,
+            "points": 33,
+            "fanPts": 84,
+            "shp": 0.1065
+         },
+         "20172018": {
+            "gp": 78,
+            "goals": 25,
+            "assists": 37,
+            "points": 62,
+            "fanPts": 149,
+            "shp": 0.1366
+         },
+         "20182019": {
+            "gp": 73,
+            "goals": 34,
+            "assists": 41,
+            "points": 75,
+            "fanPts": 184,
+            "shp": 0.1399
+         },
+         "20192020": {
+            "gp": 54,
+            "goals": 21,
+            "assists": 23,
+            "points": 44,
+            "fanPts": 109,
+            "shp": 0.145
+         },
+         "20202021": {
+            "gp": 54,
+            "goals": 20,
+            "assists": 32,
+            "points": 52,
+            "fanPts": 124,
+            "shp": 0.129
+         },
+         "20212022": {
+            "gp": 51,
+            "goals": 30,
+            "assists": 29,
+            "points": 59,
+            "fanPts": 148,
+            "shp": 0.2
+         }
+      },
+      "age": 33,
+      "team": "COL",
+      "positions": [
+         "LW"
+      ],
+      "yahooId": 5363
+   },
+   {
+      "id": 8477476,
+      "name": "Artturi Lehkonen",
+      "surname": "Lehkonen",
+      "seasonsPlayed": 9,
+      "seasons": {
+         "20162017": {
+            "gp": 73,
+            "goals": 18,
+            "assists": 10,
+            "points": 28,
+            "fanPts": 74,
+            "shp": 0.1139
+         },
+         "20172018": {
+            "gp": 66,
+            "goals": 12,
+            "assists": 9,
+            "points": 21,
+            "fanPts": 54,
+            "shp": 0.0732
+         },
+         "20182019": {
+            "gp": 82,
+            "goals": 11,
+            "assists": 20,
+            "points": 31,
+            "fanPts": 73,
+            "shp": 0.0625
+         },
+         "20192020": {
+            "gp": 70,
+            "goals": 13,
+            "assists": 14,
+            "points": 27,
+            "fanPts": 67,
+            "shp": 0.093
+         },
+         "20202021": {
+            "gp": 47,
+            "goals": 7,
+            "assists": 6,
+            "points": 13,
+            "fanPts": 33,
+            "shp": 0.09
+         },
+         "20212022": {
+            "gp": 16,
+            "goals": 6,
+            "assists": 3,
+            "points": 9,
+            "fanPts": 24,
+            "shp": 0.133
+         },
+         "20222023": {
+            "gp": 64,
+            "goals": 21,
+            "assists": 30,
+            "points": 51,
+            "fanPts": 123,
+            "shp": 0.14
+         },
+         "20232024": {
+            "gp": 45,
+            "goals": 16,
+            "assists": 18,
+            "points": 34,
+            "fanPts": 84,
+            "shp": 0.15534
+         },
+         "20242025": {
+            "gp": 69,
+            "goals": 27,
+            "assists": 18,
+            "points": 45,
+            "fanPts": 117,
+            "shp": 0.182432
+         }
+      },
+      "age": 30,
+      "team": "COL",
+      "positions": [
+         "LW",
+         "RW"
+      ],
+      "yahooId": 6035
+   },
+   {
+      "id": 8477492,
+      "name": "Nathan MacKinnon",
+      "surname": "MacKinnon",
+      "seasonsPlayed": 12,
+      "seasons": {
+         "20132014": {
+            "gp": 82,
+            "goals": 24,
+            "assists": 39,
+            "points": 63,
+            "fanPts": 150,
+            "shp": 0.0996
+         },
+         "20142015": {
+            "gp": 64,
+            "goals": 14,
+            "assists": 24,
+            "points": 38,
+            "fanPts": 90,
+            "shp": 0.0729
+         },
+         "20152016": {
+            "gp": 72,
+            "goals": 21,
+            "assists": 31,
+            "points": 52,
+            "fanPts": 125,
+            "shp": 0.0857
+         },
+         "20162017": {
+            "gp": 82,
+            "goals": 16,
+            "assists": 37,
+            "points": 53,
+            "fanPts": 122,
+            "shp": 0.0637
+         },
+         "20172018": {
+            "gp": 74,
+            "goals": 39,
+            "assists": 58,
+            "points": 97,
+            "fanPts": 233,
+            "shp": 0.1373
+         },
+         "20182019": {
+            "gp": 82,
+            "goals": 41,
+            "assists": 58,
+            "points": 99,
+            "fanPts": 239,
+            "shp": 0.1123
+         },
+         "20192020": {
+            "gp": 69,
+            "goals": 35,
+            "assists": 58,
+            "points": 93,
+            "fanPts": 221,
+            "shp": 0.11
+         },
+         "20202021": {
+            "gp": 48,
+            "goals": 20,
+            "assists": 45,
+            "points": 65,
+            "fanPts": 150,
+            "shp": 0.097
+         },
+         "20212022": {
+            "gp": 65,
+            "goals": 32,
+            "assists": 56,
+            "points": 88,
+            "fanPts": 208,
+            "shp": 0.107
+         },
+         "20222023": {
+            "gp": 71,
+            "goals": 42,
+            "assists": 69,
+            "points": 111,
+            "fanPts": 264,
+            "shp": 0.114754
+         },
+         "20232024": {
+            "gp": 82,
+            "goals": 51,
+            "assists": 89,
+            "points": 140,
+            "fanPts": 331,
+            "shp": 0.125926
+         },
+         "20242025": {
+            "gp": 79,
+            "goals": 32,
+            "assists": 84,
+            "points": 116,
+            "fanPts": 264,
+            "shp": 0.1
+         }
+      },
+      "age": 30,
+      "team": "COL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 5980
+   },
+   {
+      "id": 8482953,
+      "name": "Taylor Makar",
+      "surname": "Makar",
+      "seasonsPlayed": 0,
+      "seasons": {},
+      "age": 24,
+      "team": "COL",
+      "positions": [
+         "LW"
+      ],
+      "yahooId": 30812
+   },
+   {
+      "id": 8480039,
+      "name": "Martin Necas",
+      "surname": "Necas",
+      "seasonsPlayed": 8,
+      "seasons": {
+         "20172018": {
+            "gp": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20182019": {
+            "gp": 7,
+            "goals": 1,
+            "assists": 1,
+            "points": 2,
+            "fanPts": 5,
+            "shp": 0.1667
+         },
+         "20192020": {
+            "gp": 64,
+            "goals": 16,
+            "assists": 20,
+            "points": 36,
+            "fanPts": 88,
+            "shp": 0.182
+         },
+         "20202021": {
+            "gp": 53,
+            "goals": 14,
+            "assists": 27,
+            "points": 41,
+            "fanPts": 96,
+            "shp": 0.123
+         },
+         "20212022": {
+            "gp": 78,
+            "goals": 14,
+            "assists": 26,
+            "points": 40,
+            "fanPts": 94,
+            "shp": 0.088
+         },
+         "20222023": {
+            "gp": 82,
+            "goals": 28,
+            "assists": 43,
+            "points": 71,
+            "fanPts": 170,
+            "shp": 0.116667
+         },
+         "20232024": {
+            "gp": 77,
+            "goals": 24,
+            "assists": 29,
+            "points": 53,
+            "fanPts": 130,
+            "shp": 0.103896
+         },
+         "20242025": {
+            "gp": 30,
+            "goals": 11,
+            "assists": 17,
+            "points": 28,
+            "fanPts": 67,
+            "shp": 0.135802
+         }
+      },
+      "age": 26,
+      "team": "COL",
+      "positions": [
+         "RW"
+      ],
+      "yahooId": 7527
+   },
+   {
+      "id": 8475754,
+      "name": "Brock Nelson",
+      "surname": "Nelson",
+      "seasonsPlayed": 12,
+      "seasons": {
+         "20132014": {
+            "gp": 72,
+            "goals": 14,
+            "assists": 12,
+            "points": 26,
+            "fanPts": 66,
+            "shp": 0.1061
+         },
+         "20142015": {
+            "gp": 82,
+            "goals": 20,
+            "assists": 22,
+            "points": 42,
+            "fanPts": 104,
+            "shp": 0.1053
+         },
+         "20152016": {
+            "gp": 81,
+            "goals": 26,
+            "assists": 14,
+            "points": 40,
+            "fanPts": 106,
+            "shp": 0.1576
+         },
+         "20162017": {
+            "gp": 81,
+            "goals": 20,
+            "assists": 25,
+            "points": 45,
+            "fanPts": 110,
+            "shp": 0.1156
+         },
+         "20172018": {
+            "gp": 82,
+            "goals": 19,
+            "assists": 16,
+            "points": 35,
+            "fanPts": 89,
+            "shp": 0.1377
+         },
+         "20182019": {
+            "gp": 82,
+            "goals": 25,
+            "assists": 28,
+            "points": 53,
+            "fanPts": 131,
+            "shp": 0.1381
+         },
+         "20192020": {
+            "gp": 68,
+            "goals": 26,
+            "assists": 28,
+            "points": 54,
+            "fanPts": 134,
+            "shp": 0.149
+         },
+         "20202021": {
+            "gp": 56,
+            "goals": 18,
+            "assists": 15,
+            "points": 33,
+            "fanPts": 84,
+            "shp": 0.149
+         },
+         "20212022": {
+            "gp": 72,
+            "goals": 37,
+            "assists": 22,
+            "points": 59,
+            "fanPts": 155,
+            "shp": 0.216
+         },
+         "20222023": {
+            "gp": 82,
+            "goals": 36,
+            "assists": 39,
+            "points": 75,
+            "fanPts": 186,
+            "shp": 0.162162
+         },
+         "20232024": {
+            "gp": 82,
+            "goals": 34,
+            "assists": 35,
+            "points": 69,
+            "fanPts": 172,
+            "shp": 0.136
+         },
+         "20242025": {
+            "gp": 19,
+            "goals": 6,
+            "assists": 7,
+            "points": 13,
+            "fanPts": 32,
+            "shp": 0.193548
+         }
+      },
+      "age": 34,
+      "team": "COL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 4990
+   },
+   {
+      "id": 8477501,
+      "name": "Valeri Nichushkin",
+      "surname": "Nichushkin",
+      "seasonsPlayed": 10,
+      "seasons": {
+         "20132014": {
+            "gp": 79,
+            "goals": 14,
+            "assists": 20,
+            "points": 34,
+            "fanPts": 82,
+            "shp": 0.1094
+         },
+         "20142015": {
+            "gp": 8,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "fanPts": 2,
+            "shp": 0.0
+         },
+         "20152016": {
+            "gp": 79,
+            "goals": 9,
+            "assists": 20,
+            "points": 29,
+            "fanPts": 67,
+            "shp": 0.0647
+         },
+         "20182019": {
+            "gp": 57,
+            "goals": 0,
+            "assists": 10,
+            "points": 10,
+            "fanPts": 20,
+            "shp": 0.0
+         },
+         "20192020": {
+            "gp": 65,
+            "goals": 13,
+            "assists": 14,
+            "points": 27,
+            "fanPts": 67,
+            "shp": 0.115
+         },
+         "20202021": {
+            "gp": 55,
+            "goals": 10,
+            "assists": 11,
+            "points": 21,
+            "fanPts": 52,
+            "shp": 0.102
+         },
+         "20212022": {
+            "gp": 62,
+            "goals": 25,
+            "assists": 27,
+            "points": 52,
+            "fanPts": 129,
+            "shp": 0.139
+         },
+         "20222023": {
+            "gp": 53,
+            "goals": 17,
+            "assists": 30,
+            "points": 47,
+            "fanPts": 111,
+            "shp": 0.107595
+         },
+         "20232024": {
+            "gp": 54,
+            "goals": 28,
+            "assists": 25,
+            "points": 53,
+            "fanPts": 134,
+            "shp": 0.177215
+         },
+         "20242025": {
+            "gp": 43,
+            "goals": 21,
+            "assists": 13,
+            "points": 34,
+            "fanPts": 89,
+            "shp": 0.177966
+         }
+      },
+      "age": 30,
+      "team": "COL",
+      "positions": [
+         "LW",
+         "RW"
+      ],
+      "yahooId": 5989
+   },
+   {
+      "id": 8478109,
+      "name": "Victor Olofsson",
+      "surname": "Olofsson",
+      "seasonsPlayed": 7,
+      "seasons": {
+         "20182019": {
+            "gp": 6,
+            "goals": 2,
+            "assists": 2,
+            "points": 4,
+            "fanPts": 10,
+            "shp": 0.0952
+         },
+         "20192020": {
+            "gp": 54,
+            "goals": 20,
+            "assists": 22,
+            "points": 42,
+            "fanPts": 104,
+            "shp": 0.157
+         },
+         "20202021": {
+            "gp": 56,
+            "goals": 13,
+            "assists": 19,
+            "points": 32,
+            "fanPts": 77,
+            "shp": 0.101
+         },
+         "20212022": {
+            "gp": 72,
+            "goals": 20,
+            "assists": 29,
+            "points": 49,
+            "fanPts": 118,
+            "shp": 0.122
+         },
+         "20222023": {
+            "gp": 75,
+            "goals": 28,
+            "assists": 12,
+            "points": 40,
+            "fanPts": 108,
+            "shp": 0.173913
+         },
+         "20232024": {
+            "gp": 51,
+            "goals": 7,
+            "assists": 8,
+            "points": 15,
+            "fanPts": 37,
+            "shp": 0.106061
+         },
+         "20242025": {
+            "gp": 56,
+            "goals": 15,
+            "assists": 14,
+            "points": 29,
+            "fanPts": 73,
+            "shp": 0.137615
+         }
+      },
+      "age": 30,
+      "team": "COL",
+      "positions": [
+         "LW",
+         "RW"
+      ],
+      "yahooId": 6549
+   },
+   {
+      "id": 8485105,
+      "name": "Nikita Prishchepov",
+      "surname": "Prishchepov",
+      "seasonsPlayed": 1,
+      "seasons": {
+         "20242025": {
+            "gp": 10,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         }
+      },
+      "age": 21,
+      "team": "COL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 33214
+   },
+   {
+      "id": 8481737,
+      "name": "Matt Stienburg",
+      "surname": "Stienburg",
+      "seasonsPlayed": 1,
+      "seasons": {
+         "20242025": {
+            "gp": 8,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         }
+      },
+      "age": 25,
+      "team": "COL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 30948
+   },
+   {
+      "id": 8483569,
+      "name": "Wyatt Aamodt",
+      "surname": "Aamodt",
+      "seasonsPlayed": 1,
+      "seasons": {
+         "20242025": {
+            "gp": 2,
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "fanPts": 3,
+            "shp": 0.333333
+         }
+      },
+      "age": 28,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 9245
+   },
+   {
+      "id": 8482072,
+      "name": "Jack Ahcan",
+      "surname": "Ahcan",
+      "seasonsPlayed": 3,
+      "seasons": {
+         "20202021": {
+            "gp": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20212022": {
+            "gp": 6,
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "fanPts": 3,
+            "shp": 0.2
+         },
+         "20242025": {
+            "gp": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         }
+      },
+      "age": 28,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 8604
+   },
+   {
+      "id": 8481521,
+      "name": "Ronnie Attard",
+      "surname": "Attard",
+      "seasonsPlayed": 3,
+      "seasons": {
+         "20212022": {
+            "gp": 15,
+            "goals": 2,
+            "assists": 2,
+            "points": 4,
+            "fanPts": 10,
+            "shp": 0.125
+         },
+         "20222023": {
+            "gp": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20232024": {
+            "gp": 12,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "fanPts": 4,
+            "shp": 0.0
+         }
+      },
+      "age": 26,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 8350
+   },
+   {
+      "id": 8470613,
+      "name": "Brent Burns",
+      "surname": "Burns",
+      "seasonsPlayed": 21,
+      "seasons": {
+         "20032004": {
+            "gp": 36,
+            "goals": 1,
+            "assists": 5,
+            "points": 6,
+            "fanPts": 13,
+            "shp": 0.0294
+         },
+         "20052006": {
+            "gp": 72,
+            "goals": 4,
+            "assists": 12,
+            "points": 16,
+            "fanPts": 36,
+            "shp": 0.0548
+         },
+         "20062007": {
+            "gp": 77,
+            "goals": 7,
+            "assists": 18,
+            "points": 25,
+            "fanPts": 57,
+            "shp": 0.0648
+         },
+         "20072008": {
+            "gp": 82,
+            "goals": 15,
+            "assists": 28,
+            "points": 43,
+            "fanPts": 101,
+            "shp": 0.0949
+         },
+         "20082009": {
+            "gp": 59,
+            "goals": 8,
+            "assists": 19,
+            "points": 27,
+            "fanPts": 62,
+            "shp": 0.0544
+         },
+         "20092010": {
+            "gp": 47,
+            "goals": 3,
+            "assists": 17,
+            "points": 20,
+            "fanPts": 43,
+            "shp": 0.0288
+         },
+         "20102011": {
+            "gp": 80,
+            "goals": 17,
+            "assists": 29,
+            "points": 46,
+            "fanPts": 109,
+            "shp": 0.1
+         },
+         "20112012": {
+            "gp": 81,
+            "goals": 11,
+            "assists": 26,
+            "points": 37,
+            "fanPts": 85,
+            "shp": 0.0547
+         },
+         "20122013": {
+            "gp": 30,
+            "goals": 9,
+            "assists": 11,
+            "points": 20,
+            "fanPts": 49,
+            "shp": 0.1111
+         },
+         "20132014": {
+            "gp": 69,
+            "goals": 22,
+            "assists": 26,
+            "points": 48,
+            "fanPts": 118,
+            "shp": 0.0898
+         },
+         "20142015": {
+            "gp": 82,
+            "goals": 17,
+            "assists": 43,
+            "points": 60,
+            "fanPts": 137,
+            "shp": 0.0694
+         },
+         "20152016": {
+            "gp": 82,
+            "goals": 27,
+            "assists": 48,
+            "points": 75,
+            "fanPts": 177,
+            "shp": 0.0765
+         },
+         "20162017": {
+            "gp": 82,
+            "goals": 29,
+            "assists": 47,
+            "points": 76,
+            "fanPts": 181,
+            "shp": 0.0906
+         },
+         "20172018": {
+            "gp": 82,
+            "goals": 12,
+            "assists": 55,
+            "points": 67,
+            "fanPts": 146,
+            "shp": 0.0361
+         },
+         "20182019": {
+            "gp": 82,
+            "goals": 16,
+            "assists": 67,
+            "points": 83,
+            "fanPts": 182,
+            "shp": 0.0533
+         },
+         "20192020": {
+            "gp": 70,
+            "goals": 12,
+            "assists": 33,
+            "points": 45,
+            "fanPts": 102,
+            "shp": 0.053
+         },
+         "20202021": {
+            "gp": 56,
+            "goals": 7,
+            "assists": 22,
+            "points": 29,
+            "fanPts": 65,
+            "shp": 0.051
+         },
+         "20212022": {
+            "gp": 82,
+            "goals": 10,
+            "assists": 44,
+            "points": 54,
+            "fanPts": 118,
+            "shp": 0.049
+         },
+         "20222023": {
+            "gp": 82,
+            "goals": 18,
+            "assists": 43,
+            "points": 61,
+            "fanPts": 140,
+            "shp": 0.070588
+         },
+         "20232024": {
+            "gp": 82,
+            "goals": 10,
+            "assists": 33,
+            "points": 43,
+            "fanPts": 96,
+            "shp": 0.054054
+         },
+         "20242025": {
+            "gp": 82,
+            "goals": 6,
+            "assists": 23,
+            "points": 29,
+            "fanPts": 64,
+            "shp": 0.034483
+         }
+      },
+      "age": 40,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 3358
+   },
+   {
+      "id": 8479398,
+      "name": "Samuel Girard",
+      "surname": "Girard",
+      "seasonsPlayed": 8,
+      "seasons": {
+         "20172018": {
+            "gp": 68,
+            "goals": 3,
+            "assists": 17,
+            "points": 20,
+            "fanPts": 43,
+            "shp": 0.0395
+         },
+         "20182019": {
+            "gp": 82,
+            "goals": 4,
+            "assists": 23,
+            "points": 27,
+            "fanPts": 58,
+            "shp": 0.0345
+         },
+         "20192020": {
+            "gp": 70,
+            "goals": 4,
+            "assists": 30,
+            "points": 34,
+            "fanPts": 72,
+            "shp": 0.042
+         },
+         "20202021": {
+            "gp": 48,
+            "goals": 5,
+            "assists": 27,
+            "points": 32,
+            "fanPts": 69,
+            "shp": 0.063
+         },
+         "20212022": {
+            "gp": 67,
+            "goals": 5,
+            "assists": 23,
+            "points": 28,
+            "fanPts": 61,
+            "shp": 0.063
+         },
+         "20222023": {
+            "gp": 76,
+            "goals": 6,
+            "assists": 31,
+            "points": 37,
+            "fanPts": 80,
+            "shp": 0.05042
+         },
+         "20232024": {
+            "gp": 59,
+            "goals": 3,
+            "assists": 15,
+            "points": 18,
+            "fanPts": 39,
+            "shp": 0.041096
+         },
+         "20242025": {
+            "gp": 73,
+            "goals": 3,
+            "assists": 21,
+            "points": 24,
+            "fanPts": 51,
+            "shp": 0.031579
+         }
+      },
+      "age": 27,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 7155
+   },
+   {
+      "id": 8480069,
+      "name": "Cale Makar",
+      "surname": "Makar",
+      "seasonsPlayed": 6,
+      "seasons": {
+         "20192020": {
+            "gp": 57,
+            "goals": 12,
+            "assists": 38,
+            "points": 50,
+            "fanPts": 112,
+            "shp": 0.099
+         },
+         "20202021": {
+            "gp": 44,
+            "goals": 8,
+            "assists": 36,
+            "points": 44,
+            "fanPts": 96,
+            "shp": 0.077
+         },
+         "20212022": {
+            "gp": 77,
+            "goals": 28,
+            "assists": 58,
+            "points": 86,
+            "fanPts": 200,
+            "shp": 0.117
+         },
+         "20222023": {
+            "gp": 60,
+            "goals": 17,
+            "assists": 49,
+            "points": 66,
+            "fanPts": 149,
+            "shp": 0.096591
+         },
+         "20232024": {
+            "gp": 77,
+            "goals": 21,
+            "assists": 69,
+            "points": 90,
+            "fanPts": 201,
+            "shp": 0.090909
+         },
+         "20242025": {
+            "gp": 80,
+            "goals": 30,
+            "assists": 62,
+            "points": 92,
+            "fanPts": 214,
+            "shp": 0.121951
+         }
+      },
+      "age": 27,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 7519
+   },
+   {
+      "id": 8484258,
+      "name": "Sam Malinski",
+      "surname": "Malinski",
+      "seasonsPlayed": 2,
+      "seasons": {
+         "20232024": {
+            "gp": 23,
+            "goals": 3,
+            "assists": 7,
+            "points": 10,
+            "fanPts": 23,
+            "shp": 0.096774
+         },
+         "20242025": {
+            "gp": 76,
+            "goals": 5,
+            "assists": 10,
+            "points": 15,
+            "fanPts": 35,
+            "shp": 0.043478
+         }
+      },
+      "age": 27,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 31161
+   },
+   {
+      "id": 8476312,
+      "name": "Josh Manson",
+      "surname": "Manson",
+      "seasonsPlayed": 11,
+      "seasons": {
+         "20142015": {
+            "gp": 28,
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "fanPts": 6,
+            "shp": 0.0
+         },
+         "20152016": {
+            "gp": 71,
+            "goals": 5,
+            "assists": 10,
+            "points": 15,
+            "fanPts": 35,
+            "shp": 0.0568
+         },
+         "20162017": {
+            "gp": 82,
+            "goals": 5,
+            "assists": 12,
+            "points": 17,
+            "fanPts": 39,
+            "shp": 0.0568
+         },
+         "20172018": {
+            "gp": 80,
+            "goals": 7,
+            "assists": 30,
+            "points": 37,
+            "fanPts": 81,
+            "shp": 0.0598
+         },
+         "20182019": {
+            "gp": 74,
+            "goals": 3,
+            "assists": 13,
+            "points": 16,
+            "fanPts": 35,
+            "shp": 0.0313
+         },
+         "20192020": {
+            "gp": 50,
+            "goals": 1,
+            "assists": 8,
+            "points": 9,
+            "fanPts": 19,
+            "shp": 0.016
+         },
+         "20202021": {
+            "gp": 23,
+            "goals": 1,
+            "assists": 6,
+            "points": 7,
+            "fanPts": 15,
+            "shp": 0.053
+         },
+         "20212022": {
+            "gp": 22,
+            "goals": 2,
+            "assists": 5,
+            "points": 7,
+            "fanPts": 16,
+            "shp": 0.065
+         },
+         "20222023": {
+            "gp": 27,
+            "goals": 2,
+            "assists": 8,
+            "points": 10,
+            "fanPts": 22,
+            "shp": 0.04878
+         },
+         "20232024": {
+            "gp": 76,
+            "goals": 8,
+            "assists": 17,
+            "points": 25,
+            "fanPts": 58,
+            "shp": 0.065041
+         },
+         "20242025": {
+            "gp": 48,
+            "goals": 1,
+            "assists": 14,
+            "points": 15,
+            "fanPts": 31,
+            "shp": 0.015385
+         }
+      },
+      "age": 34,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 5525
+   },
+   {
+      "id": 8479387,
+      "name": "Keaton Middleton",
+      "surname": "Middleton",
+      "seasonsPlayed": 2,
+      "seasons": {
+         "20202021": {
+            "gp": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20242025": {
+            "gp": 41,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "fanPts": 4,
+            "shp": 0.0
+         }
+      },
+      "age": 27,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 7208
+   },
+   {
+      "id": 8478038,
+      "name": "Devon Toews",
+      "surname": "Toews",
+      "seasonsPlayed": 7,
+      "seasons": {
+         "20182019": {
+            "gp": 48,
+            "goals": 5,
+            "assists": 13,
+            "points": 18,
+            "fanPts": 41,
+            "shp": 0.0617
+         },
+         "20192020": {
+            "gp": 68,
+            "goals": 6,
+            "assists": 22,
+            "points": 28,
+            "fanPts": 62,
+            "shp": 0.049
+         },
+         "20202021": {
+            "gp": 53,
+            "goals": 9,
+            "assists": 22,
+            "points": 31,
+            "fanPts": 71,
+            "shp": 0.074
+         },
+         "20212022": {
+            "gp": 66,
+            "goals": 13,
+            "assists": 44,
+            "points": 57,
+            "fanPts": 127,
+            "shp": 0.082
+         },
+         "20222023": {
+            "gp": 80,
+            "goals": 7,
+            "assists": 43,
+            "points": 50,
+            "fanPts": 107,
+            "shp": 0.042424
+         },
+         "20232024": {
+            "gp": 82,
+            "goals": 12,
+            "assists": 38,
+            "points": 50,
+            "fanPts": 112,
+            "shp": 0.075472
+         },
+         "20242025": {
+            "gp": 76,
+            "goals": 10,
+            "assists": 34,
+            "points": 44,
+            "fanPts": 98,
+            "shp": 0.072464
+         }
+      },
+      "age": 31,
+      "team": "COL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 6476
+   },
+   {
+      "id": 8479414,
+      "name": "Nathan Bastian",
+      "surname": "Bastian",
+      "seasonsPlayed": 6,
+      "seasons": {
+         "20182019": {
+            "gp": 7,
+            "goals": 3,
+            "assists": 0,
+            "points": 3,
+            "fanPts": 9,
+            "shp": 0.2308
+         },
+         "20202021": {
+            "gp": 41,
+            "goals": 3,
+            "assists": 7,
+            "points": 10,
+            "fanPts": 23,
+            "shp": 0.065
+         },
+         "20212022": {
+            "gp": 60,
+            "goals": 11,
+            "assists": 5,
+            "points": 16,
+            "fanPts": 43,
+            "shp": 0.126
+         },
+         "20222023": {
+            "gp": 43,
+            "goals": 6,
+            "assists": 9,
+            "points": 15,
+            "fanPts": 36,
+            "shp": 0.096774
+         },
+         "20232024": {
+            "gp": 54,
+            "goals": 5,
+            "assists": 7,
+            "points": 12,
+            "fanPts": 29,
+            "shp": 0.087719
+         },
+         "20242025": {
+            "gp": 59,
+            "goals": 4,
+            "assists": 6,
+            "points": 10,
+            "fanPts": 24,
+            "shp": 0.090909
+         }
+      },
+      "age": 28,
+      "team": "DAL",
+      "positions": [
+         "RW"
+      ],
+      "yahooId": 7149
+   },
+   {
+      "id": 8473994,
+      "name": "Jamie Benn",
+      "surname": "Benn",
+      "seasonsPlayed": 16,
+      "seasons": {
+         "20092010": {
+            "gp": 82,
+            "goals": 22,
+            "assists": 19,
+            "points": 41,
+            "fanPts": 104,
+            "shp": 0.1209
+         },
+         "20102011": {
+            "gp": 69,
+            "goals": 22,
+            "assists": 34,
+            "points": 56,
+            "fanPts": 134,
+            "shp": 0.1243
+         },
+         "20112012": {
+            "gp": 71,
+            "goals": 26,
+            "assists": 37,
+            "points": 63,
+            "fanPts": 152,
+            "shp": 0.1281
+         },
+         "20122013": {
+            "gp": 41,
+            "goals": 12,
+            "assists": 21,
+            "points": 33,
+            "fanPts": 78,
+            "shp": 0.1091
+         },
+         "20132014": {
+            "gp": 81,
+            "goals": 34,
+            "assists": 45,
+            "points": 79,
+            "fanPts": 192,
+            "shp": 0.1219
+         },
+         "20142015": {
+            "gp": 82,
+            "goals": 35,
+            "assists": 52,
+            "points": 87,
+            "fanPts": 209,
+            "shp": 0.1383
+         },
+         "20152016": {
+            "gp": 82,
+            "goals": 41,
+            "assists": 48,
+            "points": 89,
+            "fanPts": 219,
+            "shp": 0.166
+         },
+         "20162017": {
+            "gp": 77,
+            "goals": 26,
+            "assists": 43,
+            "points": 69,
+            "fanPts": 164,
+            "shp": 0.1294
+         },
+         "20172018": {
+            "gp": 82,
+            "goals": 36,
+            "assists": 43,
+            "points": 79,
+            "fanPts": 194,
+            "shp": 0.1494
+         },
+         "20182019": {
+            "gp": 78,
+            "goals": 27,
+            "assists": 26,
+            "points": 53,
+            "fanPts": 133,
+            "shp": 0.1429
+         },
+         "20192020": {
+            "gp": 69,
+            "goals": 19,
+            "assists": 20,
+            "points": 39,
+            "fanPts": 97,
+            "shp": 0.117
+         },
+         "20202021": {
+            "gp": 52,
+            "goals": 11,
+            "assists": 24,
+            "points": 35,
+            "fanPts": 81,
+            "shp": 0.089
+         },
+         "20212022": {
+            "gp": 82,
+            "goals": 18,
+            "assists": 28,
+            "points": 46,
+            "fanPts": 110,
+            "shp": 0.099
+         },
+         "20222023": {
+            "gp": 82,
+            "goals": 33,
+            "assists": 45,
+            "points": 78,
+            "fanPts": 189,
+            "shp": 0.173684
+         },
+         "20232024": {
+            "gp": 82,
+            "goals": 21,
+            "assists": 39,
+            "points": 60,
+            "fanPts": 141,
+            "shp": 0.128049
+         },
+         "20242025": {
+            "gp": 80,
+            "goals": 16,
+            "assists": 33,
+            "points": 49,
+            "fanPts": 114,
+            "shp": 0.117647
+         }
+      },
+      "age": 36,
+      "team": "DAL",
+      "positions": [
+         "C",
+         "LW"
+      ],
+      "yahooId": 4519
+   },
+   {
+      "id": 8476278,
+      "name": "Colin Blackwell",
+      "surname": "Blackwell",
+      "seasonsPlayed": 7,
+      "seasons": {
+         "20182019": {
+            "gp": 6,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20192020": {
+            "gp": 27,
+            "goals": 3,
+            "assists": 7,
+            "points": 10,
+            "fanPts": 23,
+            "shp": 0.097
+         },
+         "20202021": {
+            "gp": 47,
+            "goals": 12,
+            "assists": 10,
+            "points": 22,
+            "fanPts": 56,
+            "shp": 0.188
+         },
+         "20212022": {
+            "gp": 19,
+            "goals": 2,
+            "assists": 1,
+            "points": 3,
+            "fanPts": 8,
+            "shp": 0.125
+         },
+         "20222023": {
+            "gp": 53,
+            "goals": 2,
+            "assists": 8,
+            "points": 10,
+            "fanPts": 22,
+            "shp": 0.037736
+         },
+         "20232024": {
+            "gp": 44,
+            "goals": 8,
+            "assists": 4,
+            "points": 12,
+            "fanPts": 32,
+            "shp": 0.090909
+         },
+         "20242025": {
+            "gp": 63,
+            "goals": 6,
+            "assists": 11,
+            "points": 17,
+            "fanPts": 40,
+            "shp": 0.095238
+         }
+      },
+      "age": 32,
+      "team": "DAL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 5559
+   },
+   {
+      "id": 8482145,
+      "name": "Mavrik Bourque",
+      "surname": "Bourque",
+      "seasonsPlayed": 2,
+      "seasons": {
+         "20232024": {
+            "gp": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20242025": {
+            "gp": 73,
+            "goals": 11,
+            "assists": 14,
+            "points": 25,
+            "fanPts": 61,
+            "shp": 0.1375
+         }
+      },
+      "age": 23,
+      "team": "DAL",
+      "positions": [
+         "C",
+         "RW"
+      ],
+      "yahooId": 8670
+   },
+   {
+      "id": 8480840,
+      "name": "Oskar Back",
+      "surname": "Back",
+      "seasonsPlayed": 1,
+      "seasons": {
+         "20242025": {
+            "gp": 73,
+            "goals": 4,
+            "assists": 12,
+            "points": 16,
+            "fanPts": 36,
+            "shp": 0.090909
+         }
+      },
+      "age": 25,
+      "team": "DAL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 7973
+   },
+   {
+      "id": 8475168,
+      "name": "Matt Duchene",
+      "surname": "Duchene",
+      "seasonsPlayed": 16,
+      "seasons": {
+         "20092010": {
+            "gp": 81,
+            "goals": 24,
+            "assists": 31,
+            "points": 55,
+            "fanPts": 134,
+            "shp": 0.1333
+         },
+         "20102011": {
+            "gp": 80,
+            "goals": 27,
+            "assists": 40,
+            "points": 67,
+            "fanPts": 161,
+            "shp": 0.1337
+         },
+         "20112012": {
+            "gp": 58,
+            "goals": 14,
+            "assists": 14,
+            "points": 28,
+            "fanPts": 70,
+            "shp": 0.1061
+         },
+         "20122013": {
+            "gp": 47,
+            "goals": 17,
+            "assists": 26,
+            "points": 43,
+            "fanPts": 103,
+            "shp": 0.1288
+         },
+         "20132014": {
+            "gp": 71,
+            "goals": 23,
+            "assists": 47,
+            "points": 70,
+            "fanPts": 163,
+            "shp": 0.106
+         },
+         "20142015": {
+            "gp": 82,
+            "goals": 21,
+            "assists": 34,
+            "points": 55,
+            "fanPts": 131,
+            "shp": 0.1014
+         },
+         "20152016": {
+            "gp": 76,
+            "goals": 30,
+            "assists": 29,
+            "points": 59,
+            "fanPts": 148,
+            "shp": 0.15
+         },
+         "20162017": {
+            "gp": 77,
+            "goals": 18,
+            "assists": 23,
+            "points": 41,
+            "fanPts": 100,
+            "shp": 0.1125
+         },
+         "20172018": {
+            "gp": 68,
+            "goals": 23,
+            "assists": 26,
+            "points": 49,
+            "fanPts": 121,
+            "shp": 0.1377
+         },
+         "20182019": {
+            "gp": 23,
+            "goals": 4,
+            "assists": 8,
+            "points": 12,
+            "fanPts": 28,
+            "shp": 0.087
+         },
+         "20192020": {
+            "gp": 66,
+            "goals": 13,
+            "assists": 29,
+            "points": 42,
+            "fanPts": 97,
+            "shp": 0.096
+         },
+         "20202021": {
+            "gp": 34,
+            "goals": 6,
+            "assists": 7,
+            "points": 13,
+            "fanPts": 32,
+            "shp": 0.082
+         },
+         "20212022": {
+            "gp": 78,
+            "goals": 43,
+            "assists": 43,
+            "points": 86,
+            "fanPts": 215,
+            "shp": 0.189
+         },
+         "20222023": {
+            "gp": 71,
+            "goals": 22,
+            "assists": 34,
+            "points": 56,
+            "fanPts": 134,
+            "shp": 0.130952
+         },
+         "20232024": {
+            "gp": 80,
+            "goals": 25,
+            "assists": 40,
+            "points": 65,
+            "fanPts": 155,
+            "shp": 0.145349
+         },
+         "20242025": {
+            "gp": 82,
+            "goals": 30,
+            "assists": 52,
+            "points": 82,
+            "fanPts": 194,
+            "shp": 0.197368
+         }
+      },
+      "age": 34,
+      "team": "DAL",
+      "positions": [
+         "C",
+         "RW"
+      ],
+      "yahooId": 4683
+   },
+   {
+      "id": 8476889,
+      "name": "Radek Faksa",
+      "surname": "Faksa",
+      "seasonsPlayed": 10,
+      "seasons": {
+         "20152016": {
+            "gp": 45,
+            "goals": 5,
+            "assists": 7,
+            "points": 12,
+            "fanPts": 29,
+            "shp": 0.0746
+         },
+         "20162017": {
+            "gp": 80,
+            "goals": 12,
+            "assists": 21,
+            "points": 33,
+            "fanPts": 78,
+            "shp": 0.0909
+         },
+         "20172018": {
+            "gp": 79,
+            "goals": 17,
+            "assists": 16,
+            "points": 33,
+            "fanPts": 83,
+            "shp": 0.1441
+         },
+         "20182019": {
+            "gp": 81,
+            "goals": 15,
+            "assists": 15,
+            "points": 30,
+            "fanPts": 75,
+            "shp": 0.1316
+         },
+         "20192020": {
+            "gp": 66,
+            "goals": 11,
+            "assists": 9,
+            "points": 20,
+            "fanPts": 51,
+            "shp": 0.101
+         },
+         "20202021": {
+            "gp": 55,
+            "goals": 6,
+            "assists": 8,
+            "points": 14,
+            "fanPts": 34,
+            "shp": 0.064
+         },
+         "20212022": {
+            "gp": 77,
+            "goals": 5,
+            "assists": 14,
+            "points": 19,
+            "fanPts": 43,
+            "shp": 0.056
+         },
+         "20222023": {
+            "gp": 81,
+            "goals": 11,
+            "assists": 9,
+            "points": 20,
+            "fanPts": 51,
+            "shp": 0.125
+         },
+         "20232024": {
+            "gp": 74,
+            "goals": 7,
+            "assists": 12,
+            "points": 19,
+            "fanPts": 45,
+            "shp": 0.098592
+         },
+         "20242025": {
+            "gp": 70,
+            "goals": 5,
+            "assists": 10,
+            "points": 15,
+            "fanPts": 35,
+            "shp": 0.073529
+         }
+      },
+      "age": 31,
+      "team": "DAL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 5693
+   },
+   {
+      "id": 8478449,
+      "name": "Roope Hintz",
+      "surname": "Hintz",
+      "seasonsPlayed": 7,
+      "seasons": {
+         "20182019": {
+            "gp": 58,
+            "goals": 9,
+            "assists": 13,
+            "points": 22,
+            "fanPts": 53,
+            "shp": 0.0909
+         },
+         "20192020": {
+            "gp": 60,
+            "goals": 19,
+            "assists": 14,
+            "points": 33,
+            "fanPts": 85,
+            "shp": 0.158
+         },
+         "20202021": {
+            "gp": 41,
+            "goals": 15,
+            "assists": 28,
+            "points": 43,
+            "fanPts": 101,
+            "shp": 0.163
+         },
+         "20212022": {
+            "gp": 80,
+            "goals": 37,
+            "assists": 35,
+            "points": 72,
+            "fanPts": 181,
+            "shp": 0.174
+         },
+         "20222023": {
+            "gp": 73,
+            "goals": 37,
+            "assists": 38,
+            "points": 75,
+            "fanPts": 187,
+            "shp": 0.201087
+         },
+         "20232024": {
+            "gp": 80,
+            "goals": 30,
+            "assists": 35,
+            "points": 65,
+            "fanPts": 160,
+            "shp": 0.164835
+         },
+         "20242025": {
+            "gp": 76,
+            "goals": 28,
+            "assists": 39,
+            "points": 67,
+            "fanPts": 162,
+            "shp": 0.175
+         }
+      },
+      "age": 29,
+      "team": "DAL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 6791
+   },
+   {
+      "id": 8484829,
+      "name": "Justin Hryckowian",
+      "surname": "Hryckowian",
+      "seasonsPlayed": 1,
+      "seasons": {
+         "20242025": {
+            "gp": 5,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "fanPts": 2,
+            "shp": 0.0
+         }
+      },
+      "age": 24,
+      "team": "DAL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 33280
+   },
+   {
+      "id": 8478888,
+      "name": "Cameron Hughes",
+      "surname": "Hughes",
+      "seasonsPlayed": 2,
+      "seasons": {
+         "20192020": {
+            "gp": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20202021": {
+            "gp": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         }
+      },
+      "age": 29,
+      "team": "DAL",
+      "positions": [
+         "C"
+      ],
+      "yahooId": 6907
+   },
+   {
+      "id": 8483425,
+      "name": "Lian Bichsel",
+      "surname": "Bichsel",
+      "seasonsPlayed": 1,
+      "seasons": {
+         "20242025": {
+            "gp": 38,
+            "goals": 4,
+            "assists": 5,
+            "points": 9,
+            "fanPts": 22,
+            "shp": 0.102564
+         }
+      },
+      "age": 21,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 31800
+   },
+   {
+      "id": 8478476,
+      "name": "Kyle Capobianco",
+      "surname": "Capobianco",
+      "seasonsPlayed": 7,
+      "seasons": {
+         "20172018": {
+            "gp": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20182019": {
+            "gp": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20192020": {
+            "gp": 9,
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "fanPts": 3,
+            "shp": 0.1
+         },
+         "20202021": {
+            "gp": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20212022": {
+            "gp": 45,
+            "goals": 2,
+            "assists": 7,
+            "points": 9,
+            "fanPts": 20,
+            "shp": 0.05
+         },
+         "20222023": {
+            "gp": 14,
+            "goals": 2,
+            "assists": 0,
+            "points": 2,
+            "fanPts": 6,
+            "shp": 0.142857
+         },
+         "20242025": {
+            "gp": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         }
+      },
+      "age": 28,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 6805
+   },
+   {
+      "id": 8481581,
+      "name": "Thomas Harley",
+      "surname": "Harley",
+      "seasonsPlayed": 4,
+      "seasons": {
+         "20212022": {
+            "gp": 34,
+            "goals": 1,
+            "assists": 3,
+            "points": 4,
+            "fanPts": 9,
+            "shp": 0.028
+         },
+         "20222023": {
+            "gp": 6,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "fanPts": 4,
+            "shp": 0.0
+         },
+         "20232024": {
+            "gp": 79,
+            "goals": 15,
+            "assists": 32,
+            "points": 47,
+            "fanPts": 109,
+            "shp": 0.104167
+         },
+         "20242025": {
+            "gp": 78,
+            "goals": 16,
+            "assists": 34,
+            "points": 50,
+            "fanPts": 116,
+            "shp": 0.093567
+         }
+      },
+      "age": 24,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 8296
+   },
+   {
+      "id": 8480036,
+      "name": "Miro Heiskanen",
+      "surname": "Heiskanen",
+      "seasonsPlayed": 7,
+      "seasons": {
+         "20182019": {
+            "gp": 82,
+            "goals": 12,
+            "assists": 21,
+            "points": 33,
+            "fanPts": 78,
+            "shp": 0.0659
+         },
+         "20192020": {
+            "gp": 68,
+            "goals": 8,
+            "assists": 27,
+            "points": 35,
+            "fanPts": 78,
+            "shp": 0.049
+         },
+         "20202021": {
+            "gp": 55,
+            "goals": 8,
+            "assists": 19,
+            "points": 27,
+            "fanPts": 62,
+            "shp": 0.066
+         },
+         "20212022": {
+            "gp": 70,
+            "goals": 5,
+            "assists": 31,
+            "points": 36,
+            "fanPts": 77,
+            "shp": 0.032
+         },
+         "20222023": {
+            "gp": 79,
+            "goals": 11,
+            "assists": 62,
+            "points": 73,
+            "fanPts": 157,
+            "shp": 0.053398
+         },
+         "20232024": {
+            "gp": 71,
+            "goals": 9,
+            "assists": 45,
+            "points": 54,
+            "fanPts": 117,
+            "shp": 0.055556
+         },
+         "20242025": {
+            "gp": 50,
+            "goals": 5,
+            "assists": 20,
+            "points": 25,
+            "fanPts": 55,
+            "shp": 0.046296
+         }
+      },
+      "age": 26,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 7518
+   },
+   {
+      "id": 8481609,
+      "name": "Vladislav Kolyachonok",
+      "surname": "Kolyachonok",
+      "seasonsPlayed": 4,
+      "seasons": {
+         "20212022": {
+            "gp": 32,
+            "goals": 1,
+            "assists": 2,
+            "points": 3,
+            "fanPts": 7,
+            "shp": 0.042
+         },
+         "20222023": {
+            "gp": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20232024": {
+            "gp": 5,
+            "goals": 1,
+            "assists": 3,
+            "points": 4,
+            "fanPts": 9,
+            "shp": 0.2
+         },
+         "20242025": {
+            "gp": 12,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "fanPts": 4,
+            "shp": 0.0
+         }
+      },
+      "age": 24,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 8330
+   },
+   {
+      "id": 8476902,
+      "name": "Esa Lindell",
+      "surname": "Lindell",
+      "seasonsPlayed": 10,
+      "seasons": {
+         "20152016": {
+            "gp": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20162017": {
+            "gp": 73,
+            "goals": 6,
+            "assists": 12,
+            "points": 18,
+            "fanPts": 42,
+            "shp": 0.0606
+         },
+         "20172018": {
+            "gp": 80,
+            "goals": 7,
+            "assists": 20,
+            "points": 27,
+            "fanPts": 61,
+            "shp": 0.0511
+         },
+         "20182019": {
+            "gp": 82,
+            "goals": 11,
+            "assists": 21,
+            "points": 32,
+            "fanPts": 75,
+            "shp": 0.0833
+         },
+         "20192020": {
+            "gp": 69,
+            "goals": 3,
+            "assists": 20,
+            "points": 23,
+            "fanPts": 49,
+            "shp": 0.031
+         },
+         "20202021": {
+            "gp": 56,
+            "goals": 5,
+            "assists": 11,
+            "points": 16,
+            "fanPts": 37,
+            "shp": 0.05
+         },
+         "20212022": {
+            "gp": 76,
+            "goals": 4,
+            "assists": 21,
+            "points": 25,
+            "fanPts": 54,
+            "shp": 0.029
+         },
+         "20222023": {
+            "gp": 82,
+            "goals": 8,
+            "assists": 16,
+            "points": 24,
+            "fanPts": 56,
+            "shp": 0.068966
+         },
+         "20232024": {
+            "gp": 82,
+            "goals": 5,
+            "assists": 21,
+            "points": 26,
+            "fanPts": 57,
+            "shp": 0.04386
+         },
+         "20242025": {
+            "gp": 80,
+            "goals": 5,
+            "assists": 21,
+            "points": 26,
+            "fanPts": 57,
+            "shp": 0.050505
+         }
+      },
+      "age": 31,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 5765
+   },
+   {
+      "id": 8480878,
+      "name": "Nils Lundkvist",
+      "surname": "Lundkvist",
+      "seasonsPlayed": 4,
+      "seasons": {
+         "20212022": {
+            "gp": 25,
+            "goals": 1,
+            "assists": 3,
+            "points": 4,
+            "fanPts": 9,
+            "shp": 0.031
+         },
+         "20222023": {
+            "gp": 60,
+            "goals": 6,
+            "assists": 10,
+            "points": 16,
+            "fanPts": 38,
+            "shp": 0.06383
+         },
+         "20232024": {
+            "gp": 59,
+            "goals": 2,
+            "assists": 17,
+            "points": 19,
+            "fanPts": 40,
+            "shp": 0.027397
+         },
+         "20242025": {
+            "gp": 39,
+            "goals": 0,
+            "assists": 5,
+            "points": 5,
+            "fanPts": 10,
+            "shp": 0.0
+         }
+      },
+      "age": 25,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 7926
+   },
+   {
+      "id": 8480950,
+      "name": "Ilya Lyubushkin",
+      "surname": "Lyubushkin",
+      "seasonsPlayed": 7,
+      "seasons": {
+         "20182019": {
+            "gp": 41,
+            "goals": 0,
+            "assists": 4,
+            "points": 4,
+            "fanPts": 8,
+            "shp": 0.0
+         },
+         "20192020": {
+            "gp": 51,
+            "goals": 0,
+            "assists": 4,
+            "points": 4,
+            "fanPts": 8,
+            "shp": 0.0
+         },
+         "20202021": {
+            "gp": 42,
+            "goals": 1,
+            "assists": 1,
+            "points": 2,
+            "fanPts": 5,
+            "shp": 0.028
+         },
+         "20212022": {
+            "gp": 31,
+            "goals": 2,
+            "assists": 4,
+            "points": 6,
+            "fanPts": 14,
+            "shp": 0.095
+         },
+         "20222023": {
+            "gp": 68,
+            "goals": 2,
+            "assists": 12,
+            "points": 14,
+            "fanPts": 30,
+            "shp": 0.04878
+         },
+         "20232024": {
+            "gp": 19,
+            "goals": 0,
+            "assists": 4,
+            "points": 4,
+            "fanPts": 8,
+            "shp": 0.0
+         },
+         "20242025": {
+            "gp": 80,
+            "goals": 1,
+            "assists": 13,
+            "points": 14,
+            "fanPts": 29,
+            "shp": 0.019608
+         }
+      },
+      "age": 31,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 7889
+   },
+   {
+      "id": 8475755,
+      "name": "Alexander Petrovic",
+      "surname": "Petrovic",
+      "seasonsPlayed": 9,
+      "seasons": {
+         "20122013": {
+            "gp": 6,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20132014": {
+            "gp": 7,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "fanPts": 2,
+            "shp": 0.0
+         },
+         "20142015": {
+            "gp": 33,
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "fanPts": 6,
+            "shp": 0.0
+         },
+         "20152016": {
+            "gp": 66,
+            "goals": 2,
+            "assists": 15,
+            "points": 17,
+            "fanPts": 36,
+            "shp": 0.0377
+         },
+         "20162017": {
+            "gp": 49,
+            "goals": 1,
+            "assists": 13,
+            "points": 14,
+            "fanPts": 29,
+            "shp": 0.0182
+         },
+         "20172018": {
+            "gp": 67,
+            "goals": 2,
+            "assists": 11,
+            "points": 13,
+            "fanPts": 28,
+            "shp": 0.0333
+         },
+         "20182019": {
+            "gp": 9,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "fanPts": 2,
+            "shp": 0.0
+         },
+         "20232024": {
+            "gp": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         },
+         "20242025": {
+            "gp": 5,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0
+         }
+      },
+      "age": 33,
+      "team": "DAL",
+      "positions": [
+         "D"
+      ],
+      "yahooId": 5009
+   }
+]
