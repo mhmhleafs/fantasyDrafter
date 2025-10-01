@@ -10,6 +10,69 @@ from unidecode import unidecode
 from helpers import *
 from classes import *
 
+def update_schedules():
+	print(f"{myself()}: Updating schedules...")
+
+	masterSchedule = []
+
+	for teamCode in constant.TEAM_CODES:
+		req = f"https://api-web.nhle.com/v1/club-schedule-season/{teamCode}/20252026"
+		resp = requests.get(req)
+
+		if(resp.status_code != 200):
+			print(f"{myself()}: Response for {req} not OK, terminating with code {resp.status_code}...")
+			exit()
+		else:
+			print(f"updating {teamCode}...")
+
+		jason = json.loads(resp.text)
+
+		jason["teamCode"] = teamCode
+
+		masterSchedule.append(jason)
+	
+	print(f"Writing to {constant.RAW_SCHEDULE_FILE}...")
+
+	fp = open(f"../db/{constant.RAW_SCHEDULE_FILE}", "w+")
+	json.dump(masterSchedule, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
+	fp.close()
+
+def update_game_objects():
+	fp = open(f"../db/{constant.RAW_SCHEDULE_FILE}", "r")
+	scheduleJson = json.load(fp)
+	fp.close
+
+	allGameObjects = {}
+
+	for team in scheduleJson:
+		for game in team["games"]:
+			if(game["gameType"] == 2):
+				temp = Game(
+					game["id"],
+					game["gameDate"],
+					[game["awayTeam"]["abbrev"],game["homeTeam"]["abbrev"]]
+				)
+				allGameObjects[game["id"]] = temp.__json__()
+				#break
+
+	fp = open(f"../db/{constant.SCHEDULE_FILE}", "w+")
+	json.dump(allGameObjects, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
+	fp.close()
+
+def get_game_objects():
+	fp = open(f"../db/{constant.SCHEDULE_FILE}", "r")
+	scheduleJson = json.load(fp)
+	fp.close
+
+	gameObjects = []
+
+	for game in scheduleJson:
+		temp = Game()
+		temp.construct_from_json(scheduleJson[game])
+		gameObjects.append(temp)
+
+	return gameObjects
+
 def update_rosters():
 	print(f"{myself()}: Updating rosters...")
 
@@ -37,7 +100,6 @@ def update_rosters():
 	fp.close()
 
 	print('Process finished.')
-
 
 def update_player_objects():
 	print(f"{myself()}: updating player stats...")
@@ -69,7 +131,20 @@ def update_player_objects():
 		except:
 			continue
 
-		positions = get_yahoo_position(f"{playerData["firstName"]["default"]} {playerData["lastName"]["default"]}")
+		#remove accents
+		fullName = unidecode(f"{playerData["firstName"]["default"]} {playerData["lastName"]["default"]}")
+
+		positions = get_yahoo_position(fullName)
+
+		if(positions == -1):
+			continue
+		
+		if("Util" in positions):
+			positions.remove("Util")
+		if("IR+" in positions):
+			positions.remove("IR+")
+
+		yahooId = get_yahoo_id(fullName)
 
 		nhlSeasons = {}
 		for season in playerData["seasonTotals"]:
@@ -82,17 +157,18 @@ def update_player_objects():
 													"fanPts" : 3 * season["goals"] + 2 * season["assists"],
 													"shp" : season["shootingPctg"]
 												}
+			
 		allPlayerList.append(
 				{
 				"id" : playerData["playerId"],
-				"name" : f"{playerData["firstName"]["default"]} {playerData["lastName"]["default"]}",
-				"surname" : playerData["lastName"]["default"],
+				"name" : fullName,
+				"surname" : unidecode(playerData["lastName"]["default"]),
 				"seasonsPlayed" : len(nhlSeasons),
 				"seasons" : nhlSeasons,
 				"age" : 2025 - int((playerData["birthDate"]).split('-')[0]),
 				"team" : playerData["currentTeamAbbrev"],
-				"position" : playerData["position"],
-				"positions" : positions
+				"positions" : positions,
+				"yahooId" :yahooId
 				}
 			)
 
@@ -100,22 +176,8 @@ def update_player_objects():
 	json.dump(allPlayerList, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
 	fp.close()
 
-def get_yahoo_position(playerName):
-	fp = open(f"../db/{constant.YAHOO_RAW}", "r")
-	playerData = json.load(fp)
-	fp.close()
-
-	if(not (any(unidecode(playerName) in pdata["name"] for pdata in playerData))):
-		print(f"no match for {playerName}")
-	else:
-		for yplayer in playerData:
-			if(unidecode(playerName) == yplayer["name"]):
-				return yplayer["eligible_positions"]
-	return ["Util"]
-	#quit()
-
-def get_player_objects(seasons=-1):
-	print(f"{myself()}(seasons={seasons})")
+def get_player_objects(minSeasons=-1, age_included = -1):
+	print(f"{myself()}(minSeasons={minSeasons})")
 	fp = open(f"../db/{constant.PLAYER_OBJECTS_FILE}", "r")
 	playerObjects = json.load(fp)
 
@@ -123,23 +185,17 @@ def get_player_objects(seasons=-1):
 
 	for player in playerObjects:
 		#THIS IS WHERE FILTRATION HAPPENS
-		if(len(player["seasons"]) >= seasons):
+		if(len(player["seasons"]) >= minSeasons):
 			temp = Player()
 			temp.construct_from_json(player)
 
-			if("20242025" in temp.seasons and "20232024" in temp.seasons):
+			if(age_included > 0):
+				if(("20242025" in temp.seasons or "20232024" in temp.seasons) or temp.age >= age_included):
+					allPlayers.append(temp)
+			elif("20242025" in temp.seasons and "20232024" in temp.seasons):
 				allPlayers.append(temp)
 
 	return allPlayers
-
-def add_stats(allPlayers, years, ignoreCurrentYear=False):
-	print(f"{myself()}(allPlayers[{len(allPlayers)}], years={years})")
-	#for each player
-	for player in allPlayers[:]:
-		if(player.surname in ["Petrovic"]):
-			allPlayers.remove(player)
-			continue
-		player.weigh_stat('shp', years, ignoreCurrentYear)
 
 def DEPRECATED_add_xg(allPlayers, years):
 
@@ -250,27 +306,8 @@ def predictions_to_csv(players):
 
 		for line in predictionLines:
 			writer.writerow(line)
-	
 
-def shp_to_csv(players):
-	predictionLines = []
-
-	for player in players:
-		temp = player.to_shp_data()
-		if(temp["gp"] > 40 and temp["goals"] > 13):
-			predictionLines.append(temp)
-
-	#print(predictionLines)
-
-	with open(f"../db/shp_pred.csv", mode='w', newline='') as file:
-		fieldnames = predictionLines[0].keys()
-		writer = csv.DictWriter(file, fieldnames=fieldnames)
-
-		writer.writeheader()
-
-		for line in predictionLines:
-			writer.writerow(line)
-
+#for debugging I guess
 def lines_to_json(lines):
 	fp = open(f"../db/{constant.LINES_OBJECTS_FILE}", "w+")
 

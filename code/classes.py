@@ -10,7 +10,6 @@ class Player:
 		self.seasons = seasons
 		self.age = age
 		self.team = team
-		self.position = position
 
 	def construct_from_json(self, playerJson):
 		self.id = playerJson["id"]
@@ -20,7 +19,8 @@ class Player:
 		self.seasons = playerJson["seasons"]
 		self.age = playerJson["age"]
 		self.team = playerJson["team"]
-		self.position = playerJson["position"]
+		self.positions = playerJson["positions"]
+		self.yahooId = playerJson["yahooId"]
 
 	def __str__(self):
 		retString = (
@@ -45,8 +45,31 @@ class Player:
 				"seasons" : self.seasons,
 				"age" : self.age,
 				"team" : self.team,
-				"position" : self.position
+				"positions" : self.positions,
+				"yahooId" : self.yahooId
 			}			
+
+	def toJson_withoutSeasons(self):
+		return {
+				"id" : self.id,
+				"name" : self.name,
+				"surname" : self.surname,
+				"seasonsPlayed" : self.seasonsPlayed,
+				"age" : self.age,
+				"team" : self.team,
+				"positions" : self.positions,
+				"yahooId" : self.yahooId
+			}	
+
+	def toStr_withoutSeasons(self):
+		retString = (
+		f"[{self.id}] {self.name}:\n")
+
+		for key, value in self.__dict__.items():
+			if(key not in ["id", "name", "seasons"]):
+				retString += f"\t{key}: {value}\n"
+
+		return retString
 
 	def get_last_x_seasons(self, seasonCount):
 		ret = []
@@ -94,8 +117,14 @@ class Player:
 
 	#print shp and xg predicted goals (from before 20242025) and then the 20242025 stats as well, to compare methods
 	def to_prediction_line(self):
+
+		posnString = ""
+		for posn in self.positions:
+			posnString += posn.replace("W", "")
 		retDict = {	"id"	:	self.id,
-					"position"	:	self.position,
+			 		"age"	:	self.age,
+					"team"	:	self.team,
+					"positions"	:	posnString,
 					"name"	:	self.name,
 					"surname"	:	self.surname,
 					"AVGshp"	:	self.AVGshp
@@ -103,4 +132,42 @@ class Player:
 		retDict = retDict | self.seasons[str(constant.CURRENT_SEASON)] #merge
 		
 		return retDict
+
+
+class Game:
+	def __init__(self, id=None, date=None, teams=None):
+		self.id = id
+		self.date = date
+		self.teams = teams
+
+	def construct_from_json(self, gameJson):
+		self.id = gameJson["id"]
+		self.date = gameJson["date"]
+		self.teams = gameJson["teams"]
+
+	def __str__(self):
+		retString = (f"[{self.id}]: {self.date} : {self.teams[0]} @ {self.teams[1]}")
+
+		return retString
 	
+	def __json__(self):
+		return {
+			"id" : self.id,
+			"date" : self.date,
+			"teams" : self.teams
+		}	
+
+class GameWeek:
+	def __init__(self, week):
+		self.week = week
+		self.gameDays = []
+	
+	def __str__(self):
+		retString = f"{self.week} : {self.gameDays}"
+		return retString
+	
+	def add_day(self):
+		self.gameDays.append([])
+
+	def add_game(self, day, game):
+		self.gameDays[day].append(game)
