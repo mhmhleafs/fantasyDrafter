@@ -1,0 +1,5402 @@
+[
+   {
+      "week": 1,
+      "gameDays": [
+         {
+            "date": "2025-10-07",
+            "teamsPlaying": [
+               "CHI",
+               "FLA",
+               "COL",
+               "LAK",
+               "PIT",
+               "NYR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-08",
+            "teamsPlaying": [
+               "BOS",
+               "WSH",
+               "CGY",
+               "EDM",
+               "LAK",
+               "VGK",
+               "MTL",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-09",
+            "teamsPlaying": [
+               "ANA",
+               "SEA",
+               "CHI",
+               "BOS",
+               "NYR",
+               "BUF",
+               "NJD",
+               "CAR",
+               "CBJ",
+               "NSH",
+               "CGY",
+               "VAN",
+               "UTA",
+               "COL",
+               "DAL",
+               "WPG",
+               "MTL",
+               "DET",
+               "PHI",
+               "FLA",
+               "MIN",
+               "STL",
+               "NYI",
+               "PIT",
+               "OTT",
+               "TBL",
+               "VGK",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-10",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-11",
+            "teamsPlaying": [
+               "ANA",
+               "SJS",
+               "BUF",
+               "BOS",
+               "PHI",
+               "CAR",
+               "CBJ",
+               "MIN",
+               "STL",
+               "CGY",
+               "MTL",
+               "CHI",
+               "DAL",
+               "COL",
+               "TOR",
+               "DET",
+               "VAN",
+               "EDM",
+               "OTT",
+               "FLA",
+               "LAK",
+               "WPG",
+               "NJD",
+               "TBL",
+               "UTA",
+               "NSH",
+               "WSH",
+               "NYI",
+               "NYR",
+               "PIT",
+               "VGK",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-12",
+            "teamsPlaying": [
+               "WSH",
+               "NYR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 2,
+      "gameDays": [
+         {
+            "date": "2025-10-13",
+            "teamsPlaying": [
+               "TBL",
+               "BOS",
+               "COL",
+               "BUF",
+               "NJD",
+               "CBJ",
+               "UTA",
+               "CHI",
+               "DET",
+               "TOR",
+               "FLA",
+               "PHI",
+               "LAK",
+               "MIN",
+               "NSH",
+               "OTT",
+               "WPG",
+               "NYI",
+               "STL",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-14",
+            "teamsPlaying": [
+               "PIT",
+               "ANA",
+               "CAR",
+               "SJS",
+               "VGK",
+               "CGY",
+               "MIN",
+               "DAL",
+               "EDM",
+               "NYR",
+               "SEA",
+               "MTL",
+               "NSH",
+               "TOR",
+               "TBL",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-15",
+            "teamsPlaying": [
+               "OTT",
+               "BUF",
+               "CGY",
+               "UTA",
+               "CHI",
+               "STL",
+               "FLA",
+               "DET"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-16",
+            "teamsPlaying": [
+               "CAR",
+               "ANA",
+               "BOS",
+               "VGK",
+               "COL",
+               "CBJ",
+               "VAN",
+               "DAL",
+               "EDM",
+               "NYI",
+               "FLA",
+               "NJD",
+               "PIT",
+               "LAK",
+               "NSH",
+               "MTL",
+               "NYR",
+               "TOR",
+               "SEA",
+               "OTT",
+               "WPG",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-17",
+            "teamsPlaying": [
+               "VAN",
+               "CHI",
+               "TBL",
+               "DET",
+               "MIN",
+               "WSH",
+               "SJS",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-18",
+            "teamsPlaying": [
+               "BOS",
+               "COL",
+               "FLA",
+               "BUF",
+               "CAR",
+               "LAK",
+               "TBL",
+               "CBJ",
+               "CGY",
+               "VGK",
+               "DAL",
+               "STL",
+               "EDM",
+               "NJD",
+               "MIN",
+               "PHI",
+               "NYR",
+               "MTL",
+               "NSH",
+               "WPG",
+               "NYI",
+               "OTT",
+               "PIT",
+               "SJS",
+               "SEA",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-19",
+            "teamsPlaying": [
+               "ANA",
+               "CHI",
+               "BOS",
+               "UTA",
+               "EDM",
+               "DET",
+               "VAN",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 3,
+      "gameDays": [
+         {
+            "date": "2025-10-20",
+            "teamsPlaying": [
+               "BUF",
+               "MTL",
+               "CAR",
+               "VGK",
+               "WPG",
+               "CGY",
+               "MIN",
+               "NYR",
+               "SEA",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-21",
+            "teamsPlaying": [
+               "ANA",
+               "NSH",
+               "FLA",
+               "BOS",
+               "CBJ",
+               "DAL",
+               "COL",
+               "UTA",
+               "EDM",
+               "OTT",
+               "LAK",
+               "STL",
+               "NJD",
+               "TOR",
+               "SJS",
+               "NYI",
+               "VAN",
+               "PIT",
+               "SEA",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-22",
+            "teamsPlaying": [
+               "DET",
+               "BUF",
+               "MTL",
+               "CGY",
+               "MIN",
+               "NJD"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-23",
+            "teamsPlaying": [
+               "ANA",
+               "BOS",
+               "CAR",
+               "COL",
+               "CHI",
+               "TBL",
+               "LAK",
+               "DAL",
+               "DET",
+               "NYI",
+               "MTL",
+               "EDM",
+               "PIT",
+               "FLA",
+               "VAN",
+               "NSH",
+               "SJS",
+               "NYR",
+               "PHI",
+               "OTT",
+               "SEA",
+               "WPG",
+               "UTA",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-24",
+            "teamsPlaying": [
+               "TOR",
+               "BUF",
+               "WSH",
+               "CBJ",
+               "CGY",
+               "WPG",
+               "SJS",
+               "NJD"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-25",
+            "teamsPlaying": [
+               "ANA",
+               "TBL",
+               "COL",
+               "BOS",
+               "BUF",
+               "TOR",
+               "CAR",
+               "DAL",
+               "CBJ",
+               "PIT",
+               "STL",
+               "DET",
+               "EDM",
+               "SEA",
+               "VGK",
+               "FLA",
+               "LAK",
+               "NSH",
+               "UTA",
+               "MIN",
+               "MTL",
+               "VAN",
+               "NYI",
+               "PHI",
+               "OTT",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-26",
+            "teamsPlaying": [
+               "NYR",
+               "CGY",
+               "LAK",
+               "CHI",
+               "COL",
+               "NJD",
+               "DAL",
+               "NSH",
+               "EDM",
+               "VAN",
+               "SJS",
+               "MIN",
+               "VGK",
+               "TBL",
+               "UTA",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 4,
+      "gameDays": [
+         {
+            "date": "2025-10-27",
+            "teamsPlaying": [
+               "BOS",
+               "OTT",
+               "STL",
+               "PIT"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-28",
+            "teamsPlaying": [
+               "ANA",
+               "FLA",
+               "NYI",
+               "BOS",
+               "CBJ",
+               "BUF",
+               "VGK",
+               "CAR",
+               "CGY",
+               "TOR",
+               "OTT",
+               "CHI",
+               "NJD",
+               "COL",
+               "WSH",
+               "DAL",
+               "DET",
+               "STL",
+               "UTA",
+               "EDM",
+               "LAK",
+               "SJS",
+               "WPG",
+               "MIN",
+               "MTL",
+               "SEA",
+               "TBL",
+               "NSH",
+               "NYR",
+               "VAN",
+               "PIT",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-29",
+            "teamsPlaying": [
+               "TOR",
+               "CBJ"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-30",
+            "teamsPlaying": [
+               "BUF",
+               "BOS",
+               "NYI",
+               "CAR",
+               "CGY",
+               "OTT",
+               "CHI",
+               "WPG",
+               "DAL",
+               "TBL",
+               "DET",
+               "LAK",
+               "NYR",
+               "EDM",
+               "PIT",
+               "MIN",
+               "NJD",
+               "SJS",
+               "NSH",
+               "PHI",
+               "VAN",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-10-31",
+            "teamsPlaying": [
+               "DET",
+               "ANA",
+               "COL",
+               "VGK",
+               "NYI",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-01",
+            "teamsPlaying": [
+               "CAR",
+               "BOS",
+               "WSH",
+               "BUF",
+               "STL",
+               "CBJ",
+               "CGY",
+               "NSH",
+               "CHI",
+               "EDM",
+               "COL",
+               "SJS",
+               "DAL",
+               "FLA",
+               "NJD",
+               "LAK",
+               "VAN",
+               "MIN",
+               "OTT",
+               "MTL",
+               "NYR",
+               "SEA",
+               "TOR",
+               "PHI",
+               "PIT",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-02",
+            "teamsPlaying": [
+               "NJD",
+               "ANA",
+               "CBJ",
+               "NYI",
+               "CGY",
+               "PHI",
+               "DET",
+               "SJS",
+               "TBL",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 5,
+      "gameDays": [
+         {
+            "date": "2025-11-03",
+            "teamsPlaying": [
+               "CHI",
+               "SEA",
+               "EDM",
+               "STL",
+               "VAN",
+               "NSH",
+               "PIT",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-04",
+            "teamsPlaying": [
+               "FLA",
+               "ANA",
+               "BOS",
+               "NYI",
+               "UTA",
+               "BUF",
+               "CAR",
+               "NYR",
+               "TBL",
+               "COL",
+               "EDM",
+               "DAL",
+               "DET",
+               "VGK",
+               "WPG",
+               "LAK",
+               "NSH",
+               "MIN",
+               "PHI",
+               "MTL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-05",
+            "teamsPlaying": [
+               "CBJ",
+               "CGY",
+               "CHI",
+               "VAN",
+               "SJS",
+               "SEA",
+               "STL",
+               "WSH",
+               "UTA",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-06",
+            "teamsPlaying": [
+               "ANA",
+               "DAL",
+               "OTT",
+               "BOS",
+               "STL",
+               "BUF",
+               "MIN",
+               "CAR",
+               "FLA",
+               "LAK",
+               "MTL",
+               "NJD",
+               "PHI",
+               "NSH",
+               "WSH",
+               "PIT",
+               "TBL",
+               "VGK"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-07",
+            "teamsPlaying": [
+               "CHI",
+               "CGY",
+               "NYR",
+               "DET",
+               "MIN",
+               "NYI",
+               "WPG",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-08",
+            "teamsPlaying": [
+               "ANA",
+               "VGK",
+               "BOS",
+               "TOR",
+               "BUF",
+               "CAR",
+               "CBJ",
+               "VAN",
+               "COL",
+               "EDM",
+               "DAL",
+               "NSH",
+               "FLA",
+               "SJS",
+               "UTA",
+               "MTL",
+               "PIT",
+               "NJD",
+               "NYI",
+               "NYR",
+               "OTT",
+               "PHI",
+               "SEA",
+               "STL",
+               "WSH",
+               "TBL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-09",
+            "teamsPlaying": [
+               "WPG",
+               "ANA",
+               "CAR",
+               "TOR",
+               "CGY",
+               "MIN",
+               "CHI",
+               "DET",
+               "COL",
+               "VAN",
+               "SEA",
+               "DAL",
+               "LAK",
+               "PIT",
+               "UTA",
+               "OTT"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 6,
+      "gameDays": [
+         {
+            "date": "2025-11-10",
+            "teamsPlaying": [
+               "CBJ",
+               "EDM",
+               "FLA",
+               "VGK",
+               "NYI",
+               "NJD",
+               "NSH",
+               "NYR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-11",
+            "teamsPlaying": [
+               "ANA",
+               "COL",
+               "TOR",
+               "BOS",
+               "WSH",
+               "CAR",
+               "CBJ",
+               "SEA",
+               "CGY",
+               "STL",
+               "DAL",
+               "OTT",
+               "LAK",
+               "MTL",
+               "SJS",
+               "MIN",
+               "WPG",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-12",
+            "teamsPlaying": [
+               "BUF",
+               "UTA",
+               "NJD",
+               "CHI",
+               "EDM",
+               "PHI",
+               "NYR",
+               "TBL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-13",
+            "teamsPlaying": [
+               "ANA",
+               "DET",
+               "BOS",
+               "OTT",
+               "BUF",
+               "COL",
+               "EDM",
+               "CBJ",
+               "SJS",
+               "CGY",
+               "DAL",
+               "MTL",
+               "WSH",
+               "FLA",
+               "LAK",
+               "TOR",
+               "NYI",
+               "VGK",
+               "WPG",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-14",
+            "teamsPlaying": [
+               "VAN",
+               "CAR",
+               "PIT",
+               "NSH",
+               "NYI",
+               "UTA",
+               "PHI",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-15",
+            "teamsPlaying": [
+               "ANA",
+               "MIN",
+               "BOS",
+               "MTL",
+               "BUF",
+               "DET",
+               "EDM",
+               "CAR",
+               "NYR",
+               "CBJ",
+               "WPG",
+               "CGY",
+               "TOR",
+               "CHI",
+               "PHI",
+               "DAL",
+               "TBL",
+               "FLA",
+               "LAK",
+               "OTT",
+               "NJD",
+               "WSH",
+               "SJS",
+               "SEA",
+               "VGK",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-16",
+            "teamsPlaying": [
+               "NYI",
+               "COL",
+               "DET",
+               "NYR",
+               "VGK",
+               "MIN",
+               "NSH",
+               "PIT",
+               "VAN",
+               "TBL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 7,
+      "gameDays": [
+         {
+            "date": "2025-11-17",
+            "teamsPlaying": [
+               "UTA",
+               "ANA",
+               "CAR",
+               "BOS",
+               "EDM",
+               "BUF",
+               "MTL",
+               "CBJ",
+               "VAN",
+               "FLA",
+               "LAK",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-18",
+            "teamsPlaying": [
+               "CBJ",
+               "WPG",
+               "CGY",
+               "CHI",
+               "NYI",
+               "DAL",
+               "SEA",
+               "DET",
+               "NJD",
+               "TBL",
+               "NYR",
+               "VGK",
+               "UTA",
+               "SJS",
+               "STL",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-19",
+            "teamsPlaying": [
+               "BOS",
+               "ANA",
+               "CGY",
+               "BUF",
+               "CAR",
+               "MIN",
+               "EDM",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-20",
+            "teamsPlaying": [
+               "OTT",
+               "ANA",
+               "CBJ",
+               "TOR",
+               "SEA",
+               "CHI",
+               "NYR",
+               "COL",
+               "DAL",
+               "VAN",
+               "NYI",
+               "DET",
+               "EDM",
+               "TBL",
+               "NJD",
+               "FLA",
+               "LAK",
+               "SJS",
+               "WSH",
+               "MTL",
+               "STL",
+               "PHI",
+               "VGK",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-21",
+            "teamsPlaying": [
+               "BOS",
+               "LAK",
+               "CHI",
+               "BUF",
+               "CAR",
+               "WPG",
+               "MIN",
+               "PIT"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-22",
+            "teamsPlaying": [
+               "VGK",
+               "ANA",
+               "CBJ",
+               "DET",
+               "DAL",
+               "CGY",
+               "COL",
+               "NSH",
+               "EDM",
+               "FLA",
+               "TOR",
+               "MTL",
+               "NJD",
+               "PHI",
+               "STL",
+               "NYI",
+               "NYR",
+               "UTA",
+               "OTT",
+               "SJS",
+               "SEA",
+               "PIT",
+               "TBL",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-23",
+            "teamsPlaying": [
+               "BOS",
+               "SJS",
+               "CAR",
+               "BUF",
+               "CGY",
+               "VAN",
+               "COL",
+               "CHI",
+               "MIN",
+               "WPG",
+               "SEA",
+               "NYI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 8,
+      "gameDays": [
+         {
+            "date": "2025-11-24",
+            "teamsPlaying": [
+               "CBJ",
+               "WSH",
+               "DET",
+               "NJD",
+               "FLA",
+               "NSH",
+               "OTT",
+               "LAK",
+               "STL",
+               "NYR",
+               "PHI",
+               "TBL",
+               "VGK",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-25",
+            "teamsPlaying": [
+               "DAL",
+               "EDM"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-26",
+            "teamsPlaying": [
+               "VAN",
+               "ANA",
+               "BOS",
+               "NYI",
+               "BUF",
+               "PIT",
+               "NYR",
+               "CAR",
+               "TOR",
+               "CBJ",
+               "CGY",
+               "TBL",
+               "MIN",
+               "CHI",
+               "SJS",
+               "COL",
+               "DAL",
+               "SEA",
+               "NSH",
+               "DET",
+               "PHI",
+               "FLA",
+               "MTL",
+               "UTA",
+               "STL",
+               "NJD",
+               "OTT",
+               "VGK",
+               "WPG",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-27",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-28",
+            "teamsPlaying": [
+               "LAK",
+               "ANA",
+               "NYR",
+               "BOS",
+               "NJD",
+               "BUF",
+               "WPG",
+               "CAR",
+               "PIT",
+               "CBJ",
+               "CGY",
+               "FLA",
+               "NSH",
+               "CHI",
+               "COL",
+               "MIN",
+               "UTA",
+               "DAL",
+               "TBL",
+               "DET",
+               "MTL",
+               "VGK",
+               "PHI",
+               "NYI",
+               "OTT",
+               "STL",
+               "VAN",
+               "SJS",
+               "TOR",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-29",
+            "teamsPlaying": [
+               "DET",
+               "BOS",
+               "BUF",
+               "MIN",
+               "MTL",
+               "COL",
+               "EDM",
+               "SEA",
+               "VAN",
+               "LAK",
+               "PHI",
+               "NJD",
+               "WPG",
+               "NSH",
+               "TBL",
+               "NYR",
+               "TOR",
+               "PIT",
+               "SJS",
+               "VGK",
+               "UTA",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-11-30",
+            "teamsPlaying": [
+               "ANA",
+               "CHI",
+               "CGY",
+               "CAR",
+               "OTT",
+               "DAL",
+               "WSH",
+               "NYI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 9,
+      "gameDays": [
+         {
+            "date": "2025-12-01",
+            "teamsPlaying": [
+               "ANA",
+               "STL",
+               "WPG",
+               "BUF",
+               "CBJ",
+               "NJD",
+               "PIT",
+               "PHI",
+               "UTA",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-02",
+            "teamsPlaying": [
+               "BOS",
+               "DET",
+               "CGY",
+               "NSH",
+               "CHI",
+               "VGK",
+               "VAN",
+               "COL",
+               "DAL",
+               "NYR",
+               "MIN",
+               "EDM",
+               "TOR",
+               "FLA",
+               "WSH",
+               "LAK",
+               "OTT",
+               "MTL",
+               "TBL",
+               "NYI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-03",
+            "teamsPlaying": [
+               "UTA",
+               "ANA",
+               "BUF",
+               "PHI",
+               "DAL",
+               "NJD",
+               "WPG",
+               "MTL",
+               "WSH",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-04",
+            "teamsPlaying": [
+               "STL",
+               "BOS",
+               "TOR",
+               "CAR",
+               "DET",
+               "CBJ",
+               "MIN",
+               "CGY",
+               "CHI",
+               "LAK",
+               "COL",
+               "NYI",
+               "SEA",
+               "EDM",
+               "NSH",
+               "FLA",
+               "NYR",
+               "OTT",
+               "PIT",
+               "TBL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-05",
+            "teamsPlaying": [
+               "WSH",
+               "ANA",
+               "BUF",
+               "WPG",
+               "SJS",
+               "DAL",
+               "VGK",
+               "NJD",
+               "UTA",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-06",
+            "teamsPlaying": [
+               "NJD",
+               "BOS",
+               "NSH",
+               "CAR",
+               "CBJ",
+               "FLA",
+               "UTA",
+               "CGY",
+               "CHI",
+               "LAK",
+               "COL",
+               "NYR",
+               "DET",
+               "SEA",
+               "WPG",
+               "EDM",
+               "MIN",
+               "VAN",
+               "MTL",
+               "TOR",
+               "NYI",
+               "TBL",
+               "STL",
+               "OTT"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-07",
+            "teamsPlaying": [
+               "CHI",
+               "ANA",
+               "SJS",
+               "CAR",
+               "CBJ",
+               "WSH",
+               "COL",
+               "PHI",
+               "PIT",
+               "DAL",
+               "NYI",
+               "FLA",
+               "STL",
+               "MTL",
+               "VGK",
+               "NYR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 10,
+      "gameDays": [
+         {
+            "date": "2025-12-08",
+            "teamsPlaying": [
+               "BUF",
+               "CGY",
+               "DET",
+               "VAN",
+               "LAK",
+               "UTA",
+               "MIN",
+               "SEA",
+               "TBL",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-09",
+            "teamsPlaying": [
+               "ANA",
+               "PIT",
+               "BOS",
+               "STL",
+               "BUF",
+               "EDM",
+               "CBJ",
+               "CAR",
+               "COL",
+               "NSH",
+               "DAL",
+               "WPG",
+               "TBL",
+               "MTL",
+               "NJD",
+               "OTT",
+               "VGK",
+               "NYI",
+               "SJS",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-10",
+            "teamsPlaying": [
+               "DET",
+               "CGY",
+               "NYR",
+               "CHI",
+               "FLA",
+               "UTA",
+               "LAK",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-11",
+            "teamsPlaying": [
+               "ANA",
+               "NYI",
+               "BOS",
+               "WPG",
+               "BUF",
+               "VAN",
+               "CAR",
+               "WSH",
+               "OTT",
+               "CBJ",
+               "FLA",
+               "COL",
+               "DAL",
+               "MIN",
+               "DET",
+               "EDM",
+               "MTL",
+               "PIT",
+               "TBL",
+               "NJD",
+               "STL",
+               "NSH",
+               "VGK",
+               "PHI",
+               "SJS",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-12",
+            "teamsPlaying": [
+               "CHI",
+               "STL",
+               "SEA",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-13",
+            "teamsPlaying": [
+               "ANA",
+               "NJD",
+               "CAR",
+               "PHI",
+               "VGK",
+               "CBJ",
+               "CGY",
+               "LAK",
+               "DET",
+               "CHI",
+               "NSH",
+               "COL",
+               "FLA",
+               "DAL",
+               "EDM",
+               "TOR",
+               "OTT",
+               "MIN",
+               "MTL",
+               "NYR",
+               "TBL",
+               "NYI",
+               "SJS",
+               "PIT",
+               "WSH",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-14",
+            "teamsPlaying": [
+               "BOS",
+               "MIN",
+               "BUF",
+               "SEA",
+               "PHI",
+               "CAR",
+               "EDM",
+               "MTL",
+               "VAN",
+               "NJD",
+               "UTA",
+               "PIT"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 11,
+      "gameDays": [
+         {
+            "date": "2025-12-15",
+            "teamsPlaying": [
+               "ANA",
+               "NYR",
+               "LAK",
+               "DAL",
+               "FLA",
+               "TBL",
+               "NSH",
+               "STL",
+               "OTT",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-16",
+            "teamsPlaying": [
+               "ANA",
+               "CBJ",
+               "UTA",
+               "BOS",
+               "CGY",
+               "SJS",
+               "CHI",
+               "TOR",
+               "COL",
+               "SEA",
+               "NYI",
+               "DET",
+               "EDM",
+               "PIT",
+               "WSH",
+               "MIN",
+               "PHI",
+               "MTL",
+               "VAN",
+               "NYR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-17",
+            "teamsPlaying": [
+               "CAR",
+               "NSH",
+               "UTA",
+               "DET",
+               "LAK",
+               "FLA",
+               "NJD",
+               "VGK",
+               "WPG",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-18",
+            "teamsPlaying": [
+               "EDM",
+               "BOS",
+               "PHI",
+               "BUF",
+               "MIN",
+               "CBJ",
+               "SEA",
+               "CGY",
+               "CHI",
+               "MTL",
+               "DAL",
+               "SJS",
+               "LAK",
+               "TBL",
+               "NYR",
+               "STL",
+               "PIT",
+               "OTT",
+               "TOR",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-19",
+            "teamsPlaying": [
+               "DAL",
+               "ANA",
+               "CAR",
+               "FLA",
+               "WPG",
+               "COL",
+               "NJD",
+               "UTA",
+               "VAN",
+               "NYI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-20",
+            "teamsPlaying": [
+               "CBJ",
+               "ANA",
+               "VAN",
+               "BOS",
+               "NYI",
+               "BUF",
+               "CAR",
+               "TBL",
+               "VGK",
+               "CGY",
+               "CHI",
+               "OTT",
+               "DET",
+               "WSH",
+               "EDM",
+               "MIN",
+               "STL",
+               "FLA",
+               "PIT",
+               "MTL",
+               "TOR",
+               "NSH",
+               "PHI",
+               "NYR",
+               "SEA",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-21",
+            "teamsPlaying": [
+               "OTT",
+               "BOS",
+               "BUF",
+               "NJD",
+               "COL",
+               "MIN",
+               "TOR",
+               "DAL",
+               "WSH",
+               "DET",
+               "VGK",
+               "EDM",
+               "MTL",
+               "PIT",
+               "NYR",
+               "NSH",
+               "WPG",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 12,
+      "gameDays": [
+         {
+            "date": "2025-12-22",
+            "teamsPlaying": [
+               "SEA",
+               "ANA",
+               "CBJ",
+               "LAK",
+               "VAN",
+               "PHI",
+               "STL",
+               "TBL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-23",
+            "teamsPlaying": [
+               "MTL",
+               "BOS",
+               "BUF",
+               "OTT",
+               "FLA",
+               "CAR",
+               "CGY",
+               "EDM",
+               "PHI",
+               "CHI",
+               "UTA",
+               "COL",
+               "DAL",
+               "DET",
+               "SEA",
+               "LAK",
+               "NSH",
+               "MIN",
+               "NJD",
+               "NYI",
+               "NYR",
+               "WSH",
+               "PIT",
+               "TOR",
+               "SJS",
+               "VGK"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-24",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-25",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-26",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-27",
+            "teamsPlaying": [
+               "ANA",
+               "LAK",
+               "BOS",
+               "BUF",
+               "DET",
+               "CAR",
+               "EDM",
+               "CGY",
+               "CHI",
+               "DAL",
+               "COL",
+               "VGK",
+               "TBL",
+               "FLA",
+               "MIN",
+               "WPG",
+               "WSH",
+               "NJD",
+               "NSH",
+               "STL",
+               "NYR",
+               "NYI",
+               "OTT",
+               "TOR",
+               "SJS",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-28",
+            "teamsPlaying": [
+               "NYI",
+               "CBJ",
+               "PIT",
+               "CHI",
+               "TOR",
+               "DET",
+               "MTL",
+               "TBL",
+               "PHI",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 13,
+      "gameDays": [
+         {
+            "date": "2025-12-29",
+            "teamsPlaying": [
+               "SJS",
+               "ANA",
+               "BOS",
+               "CGY",
+               "BUF",
+               "STL",
+               "NYR",
+               "CAR",
+               "CBJ",
+               "OTT",
+               "LAK",
+               "COL",
+               "EDM",
+               "WPG",
+               "WSH",
+               "FLA",
+               "MIN",
+               "VGK",
+               "NSH",
+               "UTA",
+               "VAN",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-30",
+            "teamsPlaying": [
+               "CAR",
+               "PIT",
+               "NYI",
+               "CHI",
+               "MTL",
+               "FLA",
+               "NJD",
+               "TOR",
+               "PHI",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2025-12-31",
+            "teamsPlaying": [
+               "TBL",
+               "ANA",
+               "BOS",
+               "EDM",
+               "BUF",
+               "DAL",
+               "NJD",
+               "CBJ",
+               "PHI",
+               "CGY",
+               "STL",
+               "COL",
+               "WPG",
+               "DET",
+               "MIN",
+               "SJS",
+               "NSH",
+               "VGK",
+               "NYR",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-01",
+            "teamsPlaying": [
+               "MTL",
+               "CAR",
+               "DAL",
+               "CHI",
+               "DET",
+               "PIT",
+               "TBL",
+               "LAK",
+               "NSH",
+               "SEA",
+               "UTA",
+               "NYI",
+               "WSH",
+               "OTT",
+               "WPG",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-02",
+            "teamsPlaying": [
+               "MIN",
+               "ANA",
+               "NYR",
+               "FLA",
+               "SEA",
+               "VAN",
+               "VGK",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-03",
+            "teamsPlaying": [
+               "BOS",
+               "VAN",
+               "BUF",
+               "CBJ",
+               "COL",
+               "CAR",
+               "NSH",
+               "CGY",
+               "CHI",
+               "WSH",
+               "PIT",
+               "DET",
+               "PHI",
+               "EDM",
+               "MIN",
+               "LAK",
+               "MTL",
+               "STL",
+               "UTA",
+               "NJD",
+               "TOR",
+               "NYI",
+               "WPG",
+               "OTT",
+               "TBL",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-04",
+            "teamsPlaying": [
+               "CAR",
+               "NJD",
+               "PIT",
+               "CBJ",
+               "VGK",
+               "CHI",
+               "COL",
+               "FLA",
+               "MTL",
+               "DAL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 14,
+      "gameDays": [
+         {
+            "date": "2026-01-05",
+            "teamsPlaying": [
+               "ANA",
+               "WSH",
+               "SEA",
+               "CGY",
+               "DET",
+               "OTT",
+               "MIN",
+               "LAK",
+               "UTA",
+               "NYR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-06",
+            "teamsPlaying": [
+               "ANA",
+               "PHI",
+               "BOS",
+               "SEA",
+               "VAN",
+               "BUF",
+               "DAL",
+               "CAR",
+               "CBJ",
+               "SJS",
+               "COL",
+               "TBL",
+               "NSH",
+               "EDM",
+               "FLA",
+               "TOR",
+               "NJD",
+               "NYI",
+               "VGK",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-07",
+            "teamsPlaying": [
+               "CGY",
+               "MTL",
+               "STL",
+               "CHI",
+               "DAL",
+               "WSH",
+               "SJS",
+               "LAK",
+               "OTT",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-08",
+            "teamsPlaying": [
+               "ANA",
+               "CAR",
+               "CGY",
+               "BOS",
+               "BUF",
+               "NYR",
+               "CBJ",
+               "VGK",
+               "OTT",
+               "COL",
+               "VAN",
+               "DET",
+               "EDM",
+               "WPG",
+               "FLA",
+               "MTL",
+               "MIN",
+               "SEA",
+               "NJD",
+               "PIT",
+               "NYI",
+               "NSH",
+               "TOR",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-09",
+            "teamsPlaying": [
+               "WSH",
+               "CHI",
+               "LAK",
+               "WPG",
+               "STL",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-10",
+            "teamsPlaying": [
+               "ANA",
+               "BUF",
+               "NYR",
+               "BOS",
+               "SEA",
+               "CAR",
+               "CBJ",
+               "COL",
+               "CGY",
+               "PIT",
+               "CHI",
+               "NSH",
+               "DAL",
+               "SJS",
+               "DET",
+               "MTL",
+               "LAK",
+               "EDM",
+               "FLA",
+               "OTT",
+               "NYI",
+               "MIN",
+               "TBL",
+               "PHI",
+               "STL",
+               "VGK",
+               "VAN",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-11",
+            "teamsPlaying": [
+               "PIT",
+               "BOS",
+               "CBJ",
+               "UTA",
+               "NJD",
+               "WPG",
+               "WSH",
+               "NSH",
+               "VGK",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 15,
+      "gameDays": [
+         {
+            "date": "2026-01-12",
+            "teamsPlaying": [
+               "FLA",
+               "BUF",
+               "CAR",
+               "DET",
+               "EDM",
+               "CHI",
+               "TOR",
+               "COL",
+               "DAL",
+               "LAK",
+               "NJD",
+               "MIN",
+               "VAN",
+               "MTL",
+               "SEA",
+               "NYR",
+               "TBL",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-13",
+            "teamsPlaying": [
+               "DAL",
+               "ANA",
+               "DET",
+               "BOS",
+               "CAR",
+               "STL",
+               "CGY",
+               "CBJ",
+               "EDM",
+               "NSH",
+               "MTL",
+               "WSH",
+               "NYI",
+               "WPG",
+               "VAN",
+               "OTT",
+               "TBL",
+               "PIT",
+               "TOR",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-14",
+            "teamsPlaying": [
+               "PHI",
+               "BUF",
+               "VGK",
+               "LAK",
+               "SEA",
+               "NJD",
+               "OTT",
+               "NYR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-15",
+            "teamsPlaying": [
+               "SEA",
+               "BOS",
+               "MTL",
+               "BUF",
+               "VAN",
+               "CBJ",
+               "CGY",
+               "CHI",
+               "DAL",
+               "UTA",
+               "NYI",
+               "EDM",
+               "WPG",
+               "MIN",
+               "PHI",
+               "PIT",
+               "SJS",
+               "WSH",
+               "TOR",
+               "VGK"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-16",
+            "teamsPlaying": [
+               "ANA",
+               "LAK",
+               "FLA",
+               "CAR",
+               "NSH",
+               "COL",
+               "SJS",
+               "DET",
+               "TBL",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-17",
+            "teamsPlaying": [
+               "LAK",
+               "ANA",
+               "BOS",
+               "CHI",
+               "MIN",
+               "BUF",
+               "CAR",
+               "NJD",
+               "CBJ",
+               "PIT",
+               "NYI",
+               "CGY",
+               "EDM",
+               "VAN",
+               "FLA",
+               "WSH",
+               "MTL",
+               "OTT",
+               "NSH",
+               "VGK",
+               "NYR",
+               "PHI",
+               "SEA",
+               "UTA",
+               "TOR",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-18",
+            "teamsPlaying": [
+               "TBL",
+               "DAL",
+               "OTT",
+               "DET",
+               "STL",
+               "EDM"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 16,
+      "gameDays": [
+         {
+            "date": "2026-01-19",
+            "teamsPlaying": [
+               "NYR",
+               "ANA",
+               "BUF",
+               "CAR",
+               "NJD",
+               "CGY",
+               "WPG",
+               "CHI",
+               "WSH",
+               "COL",
+               "SJS",
+               "FLA",
+               "MIN",
+               "TOR",
+               "NYI",
+               "VAN",
+               "PHI",
+               "VGK",
+               "PIT",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-20",
+            "teamsPlaying": [
+               "BOS",
+               "DAL",
+               "BUF",
+               "NSH",
+               "OTT",
+               "CBJ",
+               "NJD",
+               "EDM",
+               "NYR",
+               "LAK",
+               "MIN",
+               "MTL",
+               "SJS",
+               "TBL",
+               "STL",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-21",
+            "teamsPlaying": [
+               "ANA",
+               "COL",
+               "PIT",
+               "CGY",
+               "DET",
+               "TOR",
+               "NYI",
+               "SEA",
+               "PHI",
+               "UTA",
+               "WSH",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-22",
+            "teamsPlaying": [
+               "VGK",
+               "BOS",
+               "BUF",
+               "MTL",
+               "CHI",
+               "CAR",
+               "DAL",
+               "CBJ",
+               "DET",
+               "MIN",
+               "PIT",
+               "EDM",
+               "FLA",
+               "WPG",
+               "OTT",
+               "NSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-23",
+            "teamsPlaying": [
+               "ANA",
+               "SEA",
+               "WSH",
+               "CGY",
+               "TBL",
+               "CHI",
+               "PHI",
+               "COL",
+               "STL",
+               "DAL",
+               "NJD",
+               "VAN",
+               "NYR",
+               "SJS",
+               "VGK",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-24",
+            "teamsPlaying": [
+               "MTL",
+               "BOS",
+               "BUF",
+               "NYI",
+               "CAR",
+               "OTT",
+               "TBL",
+               "CBJ",
+               "DET",
+               "WPG",
+               "WSH",
+               "EDM",
+               "FLA",
+               "MIN",
+               "LAK",
+               "STL",
+               "UTA",
+               "NSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-25",
+            "teamsPlaying": [
+               "ANA",
+               "CGY",
+               "FLA",
+               "CHI",
+               "COL",
+               "TOR",
+               "NJD",
+               "SEA",
+               "VGK",
+               "OTT",
+               "PIT",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 17,
+      "gameDays": [
+         {
+            "date": "2026-01-26",
+            "teamsPlaying": [
+               "ANA",
+               "EDM",
+               "BOS",
+               "NYR",
+               "LAK",
+               "CBJ",
+               "NYI",
+               "PHI",
+               "UTA",
+               "TBL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-27",
+            "teamsPlaying": [
+               "NSH",
+               "BOS",
+               "BUF",
+               "TOR",
+               "CHI",
+               "MIN",
+               "DAL",
+               "STL",
+               "LAK",
+               "DET",
+               "UTA",
+               "FLA",
+               "VGK",
+               "MTL",
+               "WPG",
+               "NJD",
+               "WSH",
+               "SEA",
+               "SJS",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-28",
+            "teamsPlaying": [
+               "PHI",
+               "CBJ",
+               "COL",
+               "OTT",
+               "NYR",
+               "NYI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-29",
+            "teamsPlaying": [
+               "ANA",
+               "VAN",
+               "PHI",
+               "BOS",
+               "LAK",
+               "BUF",
+               "UTA",
+               "CAR",
+               "CGY",
+               "MIN",
+               "CHI",
+               "PIT",
+               "COL",
+               "MTL",
+               "DAL",
+               "VGK",
+               "WSH",
+               "DET",
+               "SJS",
+               "EDM",
+               "FLA",
+               "STL",
+               "NSH",
+               "NJD",
+               "NYI",
+               "NYR",
+               "TOR",
+               "SEA",
+               "WPG",
+               "TBL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-30",
+            "teamsPlaying": [
+               "CBJ",
+               "CHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-01-31",
+            "teamsPlaying": [
+               "MTL",
+               "BUF",
+               "CAR",
+               "WSH",
+               "CBJ",
+               "STL",
+               "SJS",
+               "CGY",
+               "COL",
+               "DET",
+               "DAL",
+               "UTA",
+               "MIN",
+               "EDM",
+               "WPG",
+               "FLA",
+               "LAK",
+               "PHI",
+               "NJD",
+               "OTT",
+               "NSH",
+               "NYI",
+               "NYR",
+               "PIT",
+               "SEA",
+               "VGK",
+               "TOR",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-01",
+            "teamsPlaying": [
+               "VGK",
+               "ANA",
+               "BOS",
+               "TBL",
+               "LAK",
+               "CAR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 18,
+      "gameDays": [
+         {
+            "date": "2026-02-02",
+            "teamsPlaying": [
+               "BUF",
+               "FLA",
+               "TOR",
+               "CGY",
+               "SJS",
+               "CHI",
+               "DET",
+               "COL",
+               "WPG",
+               "DAL",
+               "MTL",
+               "MIN",
+               "STL",
+               "NSH",
+               "NYI",
+               "WSH",
+               "OTT",
+               "PIT",
+               "VAN",
+               "UTA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-03",
+            "teamsPlaying": [
+               "SEA",
+               "ANA",
+               "BUF",
+               "TBL",
+               "OTT",
+               "CAR",
+               "CBJ",
+               "NJD",
+               "TOR",
+               "EDM",
+               "PIT",
+               "NYI",
+               "WSH",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-04",
+            "teamsPlaying": [
+               "BOS",
+               "FLA",
+               "CHI",
+               "CBJ",
+               "EDM",
+               "CGY",
+               "SJS",
+               "COL",
+               "STL",
+               "DAL",
+               "DET",
+               "UTA",
+               "SEA",
+               "LAK",
+               "MIN",
+               "NSH",
+               "MTL",
+               "WPG",
+               "VAN",
+               "VGK"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-05",
+            "teamsPlaying": [
+               "PIT",
+               "BUF",
+               "CAR",
+               "NYR",
+               "FLA",
+               "TBL",
+               "LAK",
+               "VGK",
+               "NYI",
+               "NJD",
+               "NSH",
+               "WSH",
+               "OTT",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-06",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-07",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-08",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-09",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-10",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-11",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-12",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-13",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-14",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-15",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-16",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-17",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-18",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-19",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-20",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-21",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-22",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-23",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-24",
+            "teamsPlaying": [],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-25",
+            "teamsPlaying": [
+               "EDM",
+               "ANA",
+               "BUF",
+               "NJD",
+               "COL",
+               "UTA",
+               "SEA",
+               "DAL",
+               "VGK",
+               "LAK",
+               "PHI",
+               "WSH",
+               "TOR",
+               "TBL",
+               "WPG",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-26",
+            "teamsPlaying": [
+               "CBJ",
+               "BOS",
+               "TBL",
+               "CAR",
+               "CGY",
+               "SJS",
+               "CHI",
+               "NSH",
+               "MIN",
+               "COL",
+               "DET",
+               "OTT",
+               "EDM",
+               "LAK",
+               "TOR",
+               "FLA",
+               "NYI",
+               "MTL",
+               "NJD",
+               "PIT",
+               "PHI",
+               "NYR",
+               "SEA",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-27",
+            "teamsPlaying": [
+               "WPG",
+               "ANA",
+               "BUF",
+               "FLA",
+               "MIN",
+               "UTA",
+               "VGK",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-02-28",
+            "teamsPlaying": [
+               "BOS",
+               "PHI",
+               "BUF",
+               "TBL",
+               "DET",
+               "CAR",
+               "NYI",
+               "CBJ",
+               "CGY",
+               "LAK",
+               "CHI",
+               "COL",
+               "NSH",
+               "DAL",
+               "EDM",
+               "SJS",
+               "WSH",
+               "MTL",
+               "NJD",
+               "STL",
+               "PIT",
+               "NYR",
+               "OTT",
+               "TOR",
+               "VAN",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-01",
+            "teamsPlaying": [
+               "CGY",
+               "ANA",
+               "CHI",
+               "UTA",
+               "FLA",
+               "NYI",
+               "STL",
+               "MIN",
+               "VGK",
+               "PIT",
+               "WPG",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 19,
+      "gameDays": [
+         {
+            "date": "2026-03-02",
+            "teamsPlaying": [
+               "CAR",
+               "SEA",
+               "CBJ",
+               "NYR",
+               "COL",
+               "LAK",
+               "DAL",
+               "VAN",
+               "DET",
+               "NSH",
+               "PHI",
+               "TOR"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-03",
+            "teamsPlaying": [
+               "COL",
+               "ANA",
+               "PIT",
+               "BOS",
+               "VGK",
+               "BUF",
+               "NSH",
+               "CBJ",
+               "DAL",
+               "CGY",
+               "CHI",
+               "WPG",
+               "OTT",
+               "EDM",
+               "FLA",
+               "NJD",
+               "TBL",
+               "MIN",
+               "MTL",
+               "SJS",
+               "UTA",
+               "WSH"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-04",
+            "teamsPlaying": [
+               "NYI",
+               "ANA",
+               "CAR",
+               "VAN",
+               "VGK",
+               "DET",
+               "TOR",
+               "NJD",
+               "STL",
+               "SEA"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-05",
+            "teamsPlaying": [
+               "BOS",
+               "NSH",
+               "BUF",
+               "PIT",
+               "FLA",
+               "CBJ",
+               "OTT",
+               "CGY",
+               "NYI",
+               "LAK",
+               "TOR",
+               "NYR",
+               "UTA",
+               "PHI",
+               "TBL",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-06",
+            "teamsPlaying": [
+               "MTL",
+               "ANA",
+               "CAR",
+               "EDM",
+               "VAN",
+               "CHI",
+               "COL",
+               "DAL",
+               "FLA",
+               "DET",
+               "MIN",
+               "VGK",
+               "STL",
+               "SJS"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-07",
+            "teamsPlaying": [
+               "WSH",
+               "BOS",
+               "NSH",
+               "BUF",
+               "CAR",
+               "CGY",
+               "UTA",
+               "CBJ",
+               "MTL",
+               "LAK",
+               "NYR",
+               "NJD",
+               "NYI",
+               "SJS",
+               "OTT",
+               "SEA",
+               "PHI",
+               "PIT",
+               "TBL",
+               "TOR",
+               "VAN",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-08",
+            "teamsPlaying": [
+               "STL",
+               "ANA",
+               "BOS",
+               "PIT",
+               "TBL",
+               "BUF",
+               "CHI",
+               "DAL",
+               "MIN",
+               "COL",
+               "DET",
+               "NJD",
+               "EDM",
+               "VGK"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   },
+   {
+      "week": 20,
+      "gameDays": [
+         {
+            "date": "2026-03-09",
+            "teamsPlaying": [
+               "CGY",
+               "WSH",
+               "UTA",
+               "CHI",
+               "NYR",
+               "PHI",
+               "OTT",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-10",
+            "teamsPlaying": [
+               "ANA",
+               "WPG",
+               "LAK",
+               "BOS",
+               "SJS",
+               "BUF",
+               "PIT",
+               "CAR",
+               "CBJ",
+               "TBL",
+               "CGY",
+               "NYR",
+               "EDM",
+               "COL",
+               "VGK",
+               "DAL",
+               "DET",
+               "FLA",
+               "UTA",
+               "MIN",
+               "TOR",
+               "MTL",
+               "NSH",
+               "SEA",
+               "NYI",
+               "STL"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-11",
+            "teamsPlaying": [
+               "MTL",
+               "OTT",
+               "WSH",
+               "PHI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-12",
+            "teamsPlaying": [
+               "ANA",
+               "TOR",
+               "SJS",
+               "BOS",
+               "WSH",
+               "BUF",
+               "STL",
+               "CAR",
+               "CBJ",
+               "FLA",
+               "CGY",
+               "NJD",
+               "CHI",
+               "UTA",
+               "COL",
+               "SEA",
+               "EDM",
+               "DAL",
+               "DET",
+               "TBL",
+               "PHI",
+               "MIN",
+               "NSH",
+               "VAN",
+               "NYR",
+               "WPG",
+               "PIT",
+               "VGK"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-13",
+            "teamsPlaying": [
+               "EDM",
+               "STL",
+               "LAK",
+               "NYI"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-14",
+            "teamsPlaying": [
+               "ANA",
+               "OTT",
+               "BOS",
+               "WSH",
+               "TOR",
+               "BUF",
+               "CAR",
+               "TBL",
+               "CBJ",
+               "PHI",
+               "CGY",
+               "NYI",
+               "CHI",
+               "VGK",
+               "COL",
+               "WPG",
+               "DET",
+               "DAL",
+               "LAK",
+               "NJD",
+               "NYR",
+               "MIN",
+               "SJS",
+               "MTL",
+               "PIT",
+               "UTA",
+               "SEA",
+               "VAN"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         },
+         {
+            "date": "2026-03-15",
+            "teamsPlaying": [
+               "ANA",
+               "MTL",
+               "NSH",
+               "EDM",
+               "FLA",
+               "SEA",
+               "TOR",
+               "MIN",
+               "SJS",
+               "OTT",
+               "STL",
+               "WPG"
+            ],
+            "dailyRoster": {
+               "C": [],
+               "RW": [],
+               "LW": [],
+               "D": [],
+               "Util": [],
+               "BN": []
+            },
+            "positionMax": {
+               "C": 2,
+               "LW": 2,
+               "RW": 2,
+               "D": 3,
+               "Util": 1
+            }
+         }
+      ]
+   }
+]
