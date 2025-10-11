@@ -21,13 +21,9 @@ for player in myTeamJson:
 	myTeam[temp.id] = temp
 
 
-def maximize_spots(team, gameDay):
+def maximize_spots(team, gameDay, recursionString=""):
 	availablePlayers = copy.copy(team)
 	gDay = copy.copy(gameDay)
-
-	for player in availablePlayers.values():
-		print(player.positions,'\t', player.surname)
-
 
 	gDay.print_lineup()
 	#remove players already slotted from availablePlayers
@@ -37,13 +33,13 @@ def maximize_spots(team, gameDay):
 			#print(position, player.surname)
 	for ap in availablePlayers.values():
 		print(ap.surname, end=" ")
-	print()
+	print(recursionString)
 
 
 #for every week in the season
 for gameWeek in allGameWeeks[0:1]:
 	#for every day in the week
-	for gameDay in gameWeek.gameDays[2:3]:
+	for gameDay in gameWeek.gameDays[0:1]:
 		teamSortedByPositionCOunt = sorted(myTeam.values(), key = lambda player: player.position_count())
 		#print(gameDay)
 		#one position
@@ -63,6 +59,7 @@ for gameWeek in allGameWeeks[0:1]:
 							gameDay.add_player('BN', player)
 					else:
 						gameDay.add_player(posn, player)
+						print(f"slotting {player.surname} at {posn}")
 		'''
 		for player in myTeam.values():
 			#if player plays that day
@@ -83,6 +80,8 @@ for gameWeek in allGameWeeks[0:1]:
 		#print('\t', gameDay.current_lineup())
 		#print('\t', gameDay)
 		gdcopy = copy.copy(gameDay)
+		print("|-------------------MAXIMIZE TIME-------------------|")
+		print()
 		maximize_spots(myTeam, gdcopy)
 
 

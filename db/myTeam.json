@@ -1,8 +1,8 @@
 [
    {
       "id": 8477934,
-      "name": "Leon Draisaitl CL",
-      "surname": "Draisaitl CL",
+      "name": "Leon Draisaitl C",
+      "surname": "Draisaitl C",
       "seasonsPlayed": 11,
       "seasons": {
          "20142015": {
@@ -128,8 +128,7 @@
       "age": 30,
       "team": "EDM",
       "positions": [
-         "C",
-         "LW"
+         "C"
       ],
       "yahooId": 6369,
       "AVG_shp": 0.20486886637931037,
@@ -145,8 +144,8 @@
    },
    {
       "id": 8480023,
-      "name": "Robert Thomas R",
-      "surname": "Thomas R",
+      "name": "Robert Thomas LR",
+      "surname": "Thomas LR",
       "seasonsPlayed": 7,
       "seasons": {
          "20182019": {
@@ -232,6 +231,7 @@
       "age": 26,
       "team": "STL",
       "positions": [
+         "LW",
          "RW"
       ],
       "yahooId": 7535,
@@ -248,8 +248,8 @@
    },
    {
       "id": 8479343,
-      "name": "Clayton keller CR",
-      "surname": "keller CR",
+      "name": "Clayton keller LR",
+      "surname": "keller LR",
       "seasonsPlayed": 9,
       "seasons": {
          "20162017": {
@@ -355,7 +355,7 @@
       "age": 27,
       "team": "UTA",
       "positions": [
-         "C",
+         "LW",
          "RW"
       ],
       "yahooId": 7115,
@@ -372,8 +372,8 @@
    },
    {
       "id": 8476455,
-      "name": "Gabriel Landeskog CL",
-      "surname": "Landeskog CL",
+      "name": "Gabriel Landeskog CR",
+      "surname": "Landeskog CR",
       "seasonsPlayed": 11,
       "seasons": {
          "20112012": {
@@ -491,7 +491,7 @@
       "team": "COL",
       "positions": [
          "C",
-         "LW"
+         "RW"
       ],
       "yahooId": 5363,
       "AVG_shp": null,
@@ -618,6 +618,171 @@
       "AVG_points": 39.004329004329,
       "AVG_shots": 178.53679653679654,
       "AVG_fanPts": 97.3982683982684
+   },
+   
+   {
+      "id": 8475913,
+      "name": "Mark Stone CR",
+      "surname": "Stone CR",
+      "seasonsPlayed": 13,
+      "seasons": {
+         "20122013": {
+            "gp": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "fanPts": 0,
+            "shp": 0.0,
+            "PPP": 0,
+            "shots": 3
+         },
+         "20132014": {
+            "gp": 19,
+            "goals": 4,
+            "assists": 4,
+            "points": 8,
+            "fanPts": 20,
+            "shp": 0.1111,
+            "PPP": 1,
+            "shots": 36
+         },
+         "20142015": {
+            "gp": 80,
+            "goals": 26,
+            "assists": 38,
+            "points": 64,
+            "fanPts": 154,
+            "shp": 0.1656,
+            "PPP": 13,
+            "shots": 157
+         },
+         "20152016": {
+            "gp": 75,
+            "goals": 23,
+            "assists": 38,
+            "points": 61,
+            "fanPts": 145,
+            "shp": 0.1523,
+            "PPP": 15,
+            "shots": 151
+         },
+         "20162017": {
+            "gp": 71,
+            "goals": 22,
+            "assists": 32,
+            "points": 54,
+            "fanPts": 130,
+            "shp": 0.1642,
+            "PPP": 14,
+            "shots": 134
+         },
+         "20172018": {
+            "gp": 58,
+            "goals": 20,
+            "assists": 42,
+            "points": 62,
+            "fanPts": 144,
+            "shp": 0.1515,
+            "PPP": 11,
+            "shots": 132
+         },
+         "20182019": {
+            "gp": 18,
+            "goals": 5,
+            "assists": 6,
+            "points": 11,
+            "fanPts": 27,
+            "shp": 0.0926,
+            "PPP": 3,
+            "shots": 54
+         },
+         "20192020": {
+            "gp": 65,
+            "goals": 21,
+            "assists": 42,
+            "points": 63,
+            "fanPts": 147,
+            "shp": 0.125,
+            "PPP": 17,
+            "shots": 168
+         },
+         "20202021": {
+            "gp": 55,
+            "goals": 21,
+            "assists": 40,
+            "points": 61,
+            "fanPts": 143,
+            "shp": 0.214,
+            "PPP": 17,
+            "shots": 98
+         },
+         "20212022": {
+            "gp": 37,
+            "goals": 9,
+            "assists": 21,
+            "points": 30,
+            "fanPts": 69,
+            "shp": 0.127,
+            "PPP": 6,
+            "shots": 71
+         },
+         "20222023": {
+            "gp": 43,
+            "goals": 17,
+            "assists": 21,
+            "points": 38,
+            "fanPts": 93,
+            "shp": 0.150442,
+            "PPP": 9,
+            "shots": 113,
+            "faceoffWins": 0,
+            "blocks": 23,
+            "hits": 31
+         },
+         "20232024": {
+            "gp": 56,
+            "goals": 16,
+            "assists": 37,
+            "points": 53,
+            "fanPts": 122,
+            "shp": 0.136752,
+            "PPP": 14,
+            "shots": 117,
+            "faceoffWins": 0,
+            "blocks": 40,
+            "hits": 34
+         },
+         "20242025": {
+            "gp": 66,
+            "goals": 19,
+            "assists": 48,
+            "points": 67,
+            "fanPts": 153,
+            "shp": 0.145038,
+            "PPP": 25,
+            "shots": 131,
+            "faceoffWins": 5,
+            "blocks": 42,
+            "hits": 32
+         }
+      },
+      "age": 33,
+      "team": "VGK",
+      "positions": [
+         "C",
+         "RW"
+      ],
+      "yahooId": 5152,
+      "AVG_shp": 0.14363409696969695,
+      "AVG_PPP": 17.096969696969698,
+      "AVG_blocks": 36.36969696969697,
+      "AVG_hits": 32.41818181818182,
+      "AVG_faceoffWins": 2.0,
+      "AVG_goals": 17.46060606060606,
+      "AVG_assists": 37.23030303030303,
+      "AVG_points": 54.69090909090909,
+      "AVG_shots": 121.55757575757576,
+      "AVG_fanPts": 126.84242424242424
    },
    {
       "id": 8480036,
@@ -877,527 +1042,5 @@
       "AVG_points": null,
       "AVG_shots": null,
       "AVG_fanPts": null
-   },
-   {
-      "id": 8475913,
-      "name": "Mark Stone R",
-      "surname": "Stone R",
-      "seasonsPlayed": 13,
-      "seasons": {
-         "20122013": {
-            "gp": 4,
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "fanPts": 0,
-            "shp": 0.0,
-            "PPP": 0,
-            "shots": 3
-         },
-         "20132014": {
-            "gp": 19,
-            "goals": 4,
-            "assists": 4,
-            "points": 8,
-            "fanPts": 20,
-            "shp": 0.1111,
-            "PPP": 1,
-            "shots": 36
-         },
-         "20142015": {
-            "gp": 80,
-            "goals": 26,
-            "assists": 38,
-            "points": 64,
-            "fanPts": 154,
-            "shp": 0.1656,
-            "PPP": 13,
-            "shots": 157
-         },
-         "20152016": {
-            "gp": 75,
-            "goals": 23,
-            "assists": 38,
-            "points": 61,
-            "fanPts": 145,
-            "shp": 0.1523,
-            "PPP": 15,
-            "shots": 151
-         },
-         "20162017": {
-            "gp": 71,
-            "goals": 22,
-            "assists": 32,
-            "points": 54,
-            "fanPts": 130,
-            "shp": 0.1642,
-            "PPP": 14,
-            "shots": 134
-         },
-         "20172018": {
-            "gp": 58,
-            "goals": 20,
-            "assists": 42,
-            "points": 62,
-            "fanPts": 144,
-            "shp": 0.1515,
-            "PPP": 11,
-            "shots": 132
-         },
-         "20182019": {
-            "gp": 18,
-            "goals": 5,
-            "assists": 6,
-            "points": 11,
-            "fanPts": 27,
-            "shp": 0.0926,
-            "PPP": 3,
-            "shots": 54
-         },
-         "20192020": {
-            "gp": 65,
-            "goals": 21,
-            "assists": 42,
-            "points": 63,
-            "fanPts": 147,
-            "shp": 0.125,
-            "PPP": 17,
-            "shots": 168
-         },
-         "20202021": {
-            "gp": 55,
-            "goals": 21,
-            "assists": 40,
-            "points": 61,
-            "fanPts": 143,
-            "shp": 0.214,
-            "PPP": 17,
-            "shots": 98
-         },
-         "20212022": {
-            "gp": 37,
-            "goals": 9,
-            "assists": 21,
-            "points": 30,
-            "fanPts": 69,
-            "shp": 0.127,
-            "PPP": 6,
-            "shots": 71
-         },
-         "20222023": {
-            "gp": 43,
-            "goals": 17,
-            "assists": 21,
-            "points": 38,
-            "fanPts": 93,
-            "shp": 0.150442,
-            "PPP": 9,
-            "shots": 113,
-            "faceoffWins": 0,
-            "blocks": 23,
-            "hits": 31
-         },
-         "20232024": {
-            "gp": 56,
-            "goals": 16,
-            "assists": 37,
-            "points": 53,
-            "fanPts": 122,
-            "shp": 0.136752,
-            "PPP": 14,
-            "shots": 117,
-            "faceoffWins": 0,
-            "blocks": 40,
-            "hits": 34
-         },
-         "20242025": {
-            "gp": 66,
-            "goals": 19,
-            "assists": 48,
-            "points": 67,
-            "fanPts": 153,
-            "shp": 0.145038,
-            "PPP": 25,
-            "shots": 131,
-            "faceoffWins": 5,
-            "blocks": 42,
-            "hits": 32
-         }
-      },
-      "age": 33,
-      "team": "VGK",
-      "positions": [
-         "RW"
-      ],
-      "yahooId": 5152,
-      "AVG_shp": 0.14363409696969695,
-      "AVG_PPP": 17.096969696969698,
-      "AVG_blocks": 36.36969696969697,
-      "AVG_hits": 32.41818181818182,
-      "AVG_faceoffWins": 2.0,
-      "AVG_goals": 17.46060606060606,
-      "AVG_assists": 37.23030303030303,
-      "AVG_points": 54.69090909090909,
-      "AVG_shots": 121.55757575757576,
-      "AVG_fanPts": 126.84242424242424
-   },
-   {
-      "id": 8478449,
-      "name": "Roope Hintz R",
-      "surname": "Hintz R",
-      "seasonsPlayed": 7,
-      "seasons": {
-         "20182019": {
-            "gp": 58,
-            "goals": 9,
-            "assists": 13,
-            "points": 22,
-            "fanPts": 53,
-            "shp": 0.0909,
-            "PPP": 6,
-            "shots": 99
-         },
-         "20192020": {
-            "gp": 60,
-            "goals": 19,
-            "assists": 14,
-            "points": 33,
-            "fanPts": 85,
-            "shp": 0.158,
-            "PPP": 14,
-            "shots": 120
-         },
-         "20202021": {
-            "gp": 41,
-            "goals": 15,
-            "assists": 28,
-            "points": 43,
-            "fanPts": 101,
-            "shp": 0.163,
-            "PPP": 18,
-            "shots": 92
-         },
-         "20212022": {
-            "gp": 80,
-            "goals": 37,
-            "assists": 35,
-            "points": 72,
-            "fanPts": 181,
-            "shp": 0.174,
-            "PPP": 24,
-            "shots": 213
-         },
-         "20222023": {
-            "gp": 73,
-            "goals": 37,
-            "assists": 38,
-            "points": 75,
-            "fanPts": 187,
-            "shp": 0.201087,
-            "PPP": 21,
-            "shots": 184,
-            "faceoffWins": 249,
-            "blocks": 45,
-            "hits": 47
-         },
-         "20232024": {
-            "gp": 80,
-            "goals": 30,
-            "assists": 35,
-            "points": 65,
-            "fanPts": 160,
-            "shp": 0.164835,
-            "PPP": 19,
-            "shots": 182,
-            "faceoffWins": 318,
-            "blocks": 38,
-            "hits": 36
-         },
-         "20242025": {
-            "gp": 76,
-            "goals": 28,
-            "assists": 39,
-            "points": 67,
-            "fanPts": 162,
-            "shp": 0.175,
-            "PPP": 20,
-            "shots": 160,
-            "faceoffWins": 458,
-            "blocks": 46,
-            "hits": 53
-         }
-      },
-      "age": 29,
-      "team": "DAL",
-      "positions": [
-         "RW"
-      ],
-      "yahooId": 6791,
-      "AVG_shp": 0.17976485152838428,
-      "AVG_PPP": 19.96943231441048,
-      "AVG_blocks": 42.88646288209607,
-      "AVG_hits": 45.148471615720524,
-      "AVG_faceoffWins": 342.46724890829694,
-      "AVG_goals": 31.56768558951965,
-      "AVG_assists": 37.28384279475983,
-      "AVG_points": 68.85152838427948,
-      "AVG_shots": 175.33624454148472,
-      "AVG_fanPts": 169.2707423580786
-   },
-   {
-      "id": 8482078,
-      "name": "Lucas Raymond R",
-      "surname": "Raymond R",
-      "seasonsPlayed": 4,
-      "seasons": {
-         "20212022": {
-            "gp": 82,
-            "goals": 23,
-            "assists": 34,
-            "points": 57,
-            "fanPts": 137,
-            "shp": 0.125,
-            "PPP": 18,
-            "shots": 184
-         },
-         "20222023": {
-            "gp": 74,
-            "goals": 17,
-            "assists": 28,
-            "points": 45,
-            "fanPts": 107,
-            "shp": 0.126866,
-            "PPP": 19,
-            "shots": 134,
-            "faceoffWins": 5,
-            "blocks": 20,
-            "hits": 43
-         },
-         "20232024": {
-            "gp": 82,
-            "goals": 31,
-            "assists": 41,
-            "points": 72,
-            "fanPts": 175,
-            "shp": 0.190184,
-            "PPP": 16,
-            "shots": 163,
-            "faceoffWins": 4,
-            "blocks": 27,
-            "hits": 69
-         },
-         "20242025": {
-            "gp": 82,
-            "goals": 27,
-            "assists": 53,
-            "points": 80,
-            "fanPts": 187,
-            "shp": 0.140625,
-            "PPP": 37,
-            "shots": 192,
-            "faceoffWins": 1,
-            "blocks": 34,
-            "hits": 42
-         }
-      },
-      "age": 23,
-      "team": "DET",
-      "positions": [
-         "RW"
-      ],
-      "yahooId": 8644,
-      "AVG_shp": 0.15342194117647057,
-      "AVG_PPP": 24.168067226890756,
-      "AVG_blocks": 27.235294117647058,
-      "AVG_hits": 51.61344537815126,
-      "AVG_faceoffWins": 3.277310924369748,
-      "AVG_goals": 25.26890756302521,
-      "AVG_assists": 41.09243697478992,
-      "AVG_points": 66.36134453781513,
-      "AVG_shots": 163.9747899159664,
-      "AVG_fanPts": 157.99159663865547
-   },
-   {
-      "id": 8475794,
-      "name": "Tyler Seguin R",
-      "surname": "Seguin R",
-      "seasonsPlayed": 15,
-      "seasons": {
-         "20102011": {
-            "gp": 74,
-            "goals": 11,
-            "assists": 11,
-            "points": 22,
-            "fanPts": 55,
-            "shp": 0.084,
-            "PPP": 3,
-            "shots": 131
-         },
-         "20112012": {
-            "gp": 81,
-            "goals": 29,
-            "assists": 38,
-            "points": 67,
-            "fanPts": 163,
-            "shp": 0.1198,
-            "PPP": 15,
-            "shots": 242
-         },
-         "20122013": {
-            "gp": 48,
-            "goals": 16,
-            "assists": 16,
-            "points": 32,
-            "fanPts": 80,
-            "shp": 0.0994,
-            "PPP": 6,
-            "shots": 161
-         },
-         "20132014": {
-            "gp": 80,
-            "goals": 37,
-            "assists": 47,
-            "points": 84,
-            "fanPts": 205,
-            "shp": 0.1259,
-            "PPP": 25,
-            "shots": 294
-         },
-         "20142015": {
-            "gp": 71,
-            "goals": 37,
-            "assists": 40,
-            "points": 77,
-            "fanPts": 191,
-            "shp": 0.1321,
-            "PPP": 29,
-            "shots": 280
-         },
-         "20152016": {
-            "gp": 72,
-            "goals": 33,
-            "assists": 40,
-            "points": 73,
-            "fanPts": 179,
-            "shp": 0.1187,
-            "PPP": 24,
-            "shots": 278
-         },
-         "20162017": {
-            "gp": 82,
-            "goals": 26,
-            "assists": 46,
-            "points": 72,
-            "fanPts": 170,
-            "shp": 0.0864,
-            "PPP": 29,
-            "shots": 301
-         },
-         "20172018": {
-            "gp": 82,
-            "goals": 40,
-            "assists": 38,
-            "points": 78,
-            "fanPts": 196,
-            "shp": 0.1194,
-            "PPP": 25,
-            "shots": 335
-         },
-         "20182019": {
-            "gp": 82,
-            "goals": 33,
-            "assists": 47,
-            "points": 80,
-            "fanPts": 193,
-            "shp": 0.0988,
-            "PPP": 27,
-            "shots": 334
-         },
-         "20192020": {
-            "gp": 69,
-            "goals": 17,
-            "assists": 33,
-            "points": 50,
-            "fanPts": 117,
-            "shp": 0.069,
-            "PPP": 15,
-            "shots": 245
-         },
-         "20202021": {
-            "gp": 3,
-            "goals": 2,
-            "assists": 0,
-            "points": 2,
-            "fanPts": 6,
-            "shp": 0.25,
-            "PPP": 0,
-            "shots": 8
-         },
-         "20212022": {
-            "gp": 81,
-            "goals": 24,
-            "assists": 25,
-            "points": 49,
-            "fanPts": 122,
-            "shp": 0.11,
-            "PPP": 13,
-            "shots": 218
-         },
-         "20222023": {
-            "gp": 76,
-            "goals": 21,
-            "assists": 29,
-            "points": 50,
-            "fanPts": 121,
-            "shp": 0.111111,
-            "PPP": 11,
-            "shots": 189,
-            "faceoffWins": 476,
-            "blocks": 23,
-            "hits": 84
-         },
-         "20232024": {
-            "gp": 68,
-            "goals": 25,
-            "assists": 27,
-            "points": 52,
-            "fanPts": 129,
-            "shp": 0.162338,
-            "PPP": 8,
-            "shots": 154,
-            "faceoffWins": 342,
-            "blocks": 22,
-            "hits": 61
-         },
-         "20242025": {
-            "gp": 20,
-            "goals": 9,
-            "assists": 12,
-            "points": 21,
-            "fanPts": 51,
-            "shp": 0.195652,
-            "PPP": 3,
-            "shots": 46,
-            "faceoffWins": 92,
-            "blocks": 6,
-            "hits": 5
-         }
-      },
-      "age": 33,
-      "team": "DAL",
-      "positions": [
-         "RW"
-      ],
-      "yahooId": 4962,
-      "AVG_shp": 0.14266134146341464,
-      "AVG_PPP": 8.78048780487805,
-      "AVG_blocks": 20.51219512195122,
-      "AVG_hits": 64.82926829268293,
-      "AVG_faceoffWins": 373.609756097561,
-      "AVG_goals": 21.195121951219512,
-      "AVG_assists": 26.097560975609756,
-      "AVG_points": 47.292682926829265,
-      "AVG_shots": 157.0487804878049,
-      "AVG_fanPts": 115.78048780487805
    }
 ]
