@@ -5,6 +5,7 @@
 
 #"source .venv/bin/activate" to engage virtual environment to use unidecode
 
+import itertools
 from database import *
 
 #GAME WEEKS FILE CURRENTLY NERFED FOR TESTING
@@ -21,68 +22,95 @@ for player in myTeamJson:
 	myTeam[temp.id] = temp
 
 
-def maximize_spots(team, gameDay, recursionString=""):
-	availablePlayers = copy.copy(team)
-	gDay = copy.copy(gameDay)
+def maximize_spots(team, gameDay):
+	availablePlayers = copy.deepcopy(team)
 
-	gDay.print_lineup()
+	gameDay.print_lineup()
 	#remove players already slotted from availablePlayers
-	for position in gDay.dailyRoster:
-		for player in gDay.dailyRoster[position]:
+	for position in gameDay.dailyRoster:
+		for player in gameDay.dailyRoster[position]:
 			del availablePlayers[player.id]
-			#print(position, player.surname)
-	for ap in availablePlayers.values():
-		print(ap.surname, end=" ")
-	print(recursionString)
 
+	options = create_options(availablePlayers, gameDay)
+
+	positionCombos = list(itertools.product(*options))
+	
+	optimalConfigs = []
+
+	minOpenSlotCount = gameDay.open_slot_count()
+	print(minOpenSlotCount)
+	for configuration in positionCombos:
+		#print(player_array_to_string(configuration))
+		tempGd = copy.deepcopy(gameDay)
+		for playerClone in configuration:
+			posn = playerClone.positions[0]
+			if(posn not in tempGd.open_positions()):
+				if("Util" in tempGd.open_positions()):
+					#print(f"slotting {playerClone.surname} at Util")
+					tempGd.add_player('Util', playerClone)
+				else:
+					#print(f"too many cooks at {posn}, no Util available")
+					tempGd.add_player('BN', playerClone)
+			else:
+				tempGd.add_player(posn, playerClone)
+				#print(f"slotting {playerClone.surname} at {posn}")
+			pass#print(playerClone)
+		print(player_array_to_string(configuration))
+		print(tempGd.open_slot_count())
+		print(tempGd.open_slot_count() < minOpenSlotCount)
+		if(tempGd.open_slot_count() < minOpenSlotCount):
+			optimalConfigs.clear()
+			minOpenSlotCount = tempGd.open_slot_count()
+			optimalConfigs.append(copy.deepcopy(tempGd))
+		elif(tempGd.open_slot_count() == minOpenSlotCount):
+			optimalConfigs.append(copy.deepcopy(tempGd))
+		print()
+
+	return optimalConfigs
+
+
+
+def create_options(players, gameDay):
+	configs = []
+	for player in players.values():
+		clones = []
+		for position in player.positions:
+			playerCopy = copy.deepcopy(player)
+			playerCopy.positions = [position]
+			clones.append(playerCopy)
+		configs.append(clones[:])
+	return configs
+
+def fork_optionsSAVE(players, gameDay):
+	for player in players.values():
+		for position in range(0, len(player.positions)):
+			playersCopy = copy.deepcopy(players)
+
+			#if no options remain
+			if(not any((len(player.positions) > 1) for player in playersCopy.values())):
+				print(player_dict_to_string(playersCopy))
+				return playersCopy
+			
+			del playersCopy[player.id].positions[position]
+
+			#if player is out of positions, gtfo
+			if(len(playersCopy[player.id].positions) == 0):
+				return
+			
+			fork_options(playersCopy, gameDay)
+				
 
 #for every week in the season
 for gameWeek in allGameWeeks[0:1]:
 	#for every day in the week
 	for gameDay in gameWeek.gameDays[0:1]:
 		teamSortedByPositionCOunt = sorted(myTeam.values(), key = lambda player: player.position_count())
-		#print(gameDay)
-		#one position
-		#for every player in my team
-		for player in myTeam.values():
-			#if player plays that day
-			if(player.team in gameDay.teamsPlaying):
-				#if they're a one trick nancy
-				if(player.position_count() == 1):
-					posn = player.positions[0]
-					if(posn not in gameDay.open_positions()):
-						if("Util" in gameDay.open_positions()):
-							#print(f"too many cooks at {posn}")
-							gameDay.add_player('Util', player)
-						else:
-							#print(f"too many cooks at {posn}, no Util available")
-							gameDay.add_player('BN', player)
-					else:
-						gameDay.add_player(posn, player)
-						print(f"slotting {player.surname} at {posn}")
-		'''
-		for player in myTeam.values():
-			#if player plays that day
-			if(player.team in gameDay.teamsPlaying):
-				#if they're a two trick pony (check for pigeonhole)
-				if(player.position_count() == 2):
-					#if one of the player's positions is already filled
-					if(lists_share_element(player.positions, gameDay.full_positions())):
-						#they're now a one trick pony so slot them
-						for posn in player.positions:
-							if(posn in gameDay.open_positions()):
-								print(f"{player.surname} must play {posn}")
-								gameDay.add_player(posn, player)
-		'''
-					
 
-		#print(gameDay.positionMax)
-		#print('\t', gameDay.current_lineup())
-		#print('\t', gameDay)
-		gdcopy = copy.copy(gameDay)
 		print("|-------------------MAXIMIZE TIME-------------------|")
 		print()
-		maximize_spots(myTeam, gdcopy)
+		optimalConfigs = maximize_spots(myTeam, gameDay)
+		for oc in optimalConfigs:
+			print(oc)
 
 
 #assign single posn players to positions

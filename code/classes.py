@@ -186,6 +186,7 @@ class GameDay:
 			'BN' : []
 		}
 		self.positionMax = posnMax
+		self.options = []
 
 	def __json__(self):
 		return self.__dict__
@@ -207,8 +208,10 @@ class GameDay:
 
 	def add_player(self, position, player):
 		if(position not in self.open_positions() and position != "BN"):
+			#return
 			print(f"illegal addition: {player.surname} at {position}")
-		self.dailyRoster[position].append(player)
+		else:
+			self.dailyRoster[position].append(player)
 
 	def get_position(self, position):
 		return self.dailyRoster[position]
@@ -223,6 +226,15 @@ class GameDay:
 				#print(f"slot open at {posn}")
 				openSlots[posn] = self.positionMax[posn] - len(self.dailyRoster[posn])
 		return openSlots
+	
+	def open_slot_count(self):
+		total = 0
+		for posn in self.open_positions().values():
+			print(self.open_positions())
+			total += posn
+
+		return total
+	
 	
 	def full_positions(self):
 		fullSlots = {}
@@ -264,8 +276,5 @@ class GameDay:
 					line = 'B'
 				retLines[line] += f"{posn}: {player.surname}\t"
 
-		retString = f"{retLines['F']}\n{retLines['D']}\n{retLines['X']}\n{retLines['B']}"
 		for line in retLines.values():
 			print(line)
-		#print(retLines)
-		#print(retString)

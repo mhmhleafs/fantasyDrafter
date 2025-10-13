@@ -170,6 +170,20 @@ def player_array_to_string(players):
 
 	return retString
 
+def player_dict_to_string(players):
+	goal = len(players)
+	i = 0
+
+	retString = "["
+	for player in players.values():
+		retString += f"({player.surname} {player.positions})"
+		i += 1
+		#if there are more players
+		if(i < goal):
+			retString += ", "
+	retString += "]"
+
+	return retString
 def lists_share_element(list1, list2):
 	ret = False
 	for l in list1:
