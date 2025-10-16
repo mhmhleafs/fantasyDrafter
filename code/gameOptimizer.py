@@ -8,69 +8,80 @@
 import itertools
 from database import *
 
-#GAME WEEKS FILE CURRENTLY NERFED FOR TESTING
-allGameWeeks = get_game_weeks()
-
-myTeamJson = json_load(constant.MY_TEAM_FILE)
-
-myTeam = {}
-
-#create my team as a dict of player objects (key = id)
-for player in myTeamJson:
-	temp = Player()
-	temp.construct_from_json(player)
-	myTeam[temp.id] = temp
-
 
 def maximize_spots(team, gameDay):
 	availablePlayers = copy.deepcopy(team)
 
 	gameDay.print_lineup()
-	#remove players already slotted from availablePlayers
-	for position in gameDay.dailyRoster:
-		for player in gameDay.dailyRoster[position]:
+
+	bench = set()
+
+	for player in team.values():
+		#if the player has no game on the day
+		if(not playing_on_day(player, gameDay)):
+			print(f"no game for {player.surname}")
+			bench.add(copy.deepcopy(player))
 			del availablePlayers[player.id]
-
-	options = create_options(availablePlayers, gameDay)
-
-	positionCombos = list(itertools.product(*options))
-	
 	optimalConfigs = []
 
 	minOpenSlotCount = gameDay.open_slot_count()
-	print(minOpenSlotCount)
+	print(player_set_to_string(bench))
+
+
+	options = create_options(availablePlayers)
+	#print(availablePlayers)
+	positionCombos = list(itertools.product(*options))
+
+
+	#for every permutation of every (playing) player at every possible position
 	for configuration in positionCombos:
-		#print(player_array_to_string(configuration))
+
 		tempGd = copy.deepcopy(gameDay)
+
+		tempGd.dailyRoster["BN"].extend(bench)
+
+		#for each playerSlice in the current configuration
 		for playerClone in configuration:
+
+			#posn sets from the player's only position
 			posn = playerClone.positions[0]
+
+			#if their posn is filled
 			if(posn not in tempGd.open_positions()):
+				#they go util if possible
 				if("Util" in tempGd.open_positions()):
-					#print(f"slotting {playerClone.surname} at Util")
 					tempGd.add_player('Util', playerClone)
+
+				#else, they're benched
 				else:
-					#print(f"too many cooks at {posn}, no Util available")
 					tempGd.add_player('BN', playerClone)
+			#if their posn is available, add them to that spot
 			else:
 				tempGd.add_player(posn, playerClone)
-				#print(f"slotting {playerClone.surname} at {posn}")
-			pass#print(playerClone)
-		print(player_array_to_string(configuration))
-		print(tempGd.open_slot_count())
-		print(tempGd.open_slot_count() < minOpenSlotCount)
+				
+		#if the current amount of openslots is lower than the previous low
 		if(tempGd.open_slot_count() < minOpenSlotCount):
+			#reset the optimal configs and sets the new low
 			optimalConfigs.clear()
 			minOpenSlotCount = tempGd.open_slot_count()
-			optimalConfigs.append(copy.deepcopy(tempGd))
-		elif(tempGd.open_slot_count() == minOpenSlotCount):
-			optimalConfigs.append(copy.deepcopy(tempGd))
-		print()
 
+			#add config
+			optimalConfigs.append(tempGd)
+
+		#if equal to min open spots, add config
+		elif(tempGd.open_slot_count() == minOpenSlotCount):
+			#print(tempGd.open_slot_count())
+			optimalConfigs.append(tempGd)
+
+		#if bad config, ignore
+		else:
+			pass#print(tempGd.open_slot_count())
+	
 	return optimalConfigs
 
 
 
-def create_options(players, gameDay):
+def create_options(players):
 	configs = []
 	for player in players.values():
 		clones = []
@@ -80,38 +91,27 @@ def create_options(players, gameDay):
 			clones.append(playerCopy)
 		configs.append(clones[:])
 	return configs
-
-def fork_optionsSAVE(players, gameDay):
-	for player in players.values():
-		for position in range(0, len(player.positions)):
-			playersCopy = copy.deepcopy(players)
-
-			#if no options remain
-			if(not any((len(player.positions) > 1) for player in playersCopy.values())):
-				print(player_dict_to_string(playersCopy))
-				return playersCopy
-			
-			del playersCopy[player.id].positions[position]
-
-			#if player is out of positions, gtfo
-			if(len(playersCopy[player.id].positions) == 0):
-				return
-			
-			fork_options(playersCopy, gameDay)
 				
 
-#for every week in the season
-for gameWeek in allGameWeeks[0:1]:
-	#for every day in the week
-	for gameDay in gameWeek.gameDays[0:1]:
-		teamSortedByPositionCOunt = sorted(myTeam.values(), key = lambda player: player.position_count())
+def fill_weeks(allGameWeeks, myTeam):
+	bestLineups = []
 
-		print("|-------------------MAXIMIZE TIME-------------------|")
-		print()
-		optimalConfigs = maximize_spots(myTeam, gameDay)
-		for oc in optimalConfigs:
-			print(oc)
+	#for every week in the season
+	for gameWeek in allGameWeeks[0:1]:
+		#for every day in the week
+		for gameDay in gameWeek.gameDays[0:1]:
+			print("|-------------------MAXIMIZE TIME-------------------|")
+			print()
+			optimalConfigs = maximize_spots(myTeam, gameDay)
 
+		#get all possible open positions?
+
+		for cfg in optimalConfigs:
+			if("Util" in cfg.open_positions()):
+				#print(cfg.open_positions())
+				bestLineups.append(cfg)
+			#print(len(cfg.open_positions()))
+	return bestLineups
 
 #assign single posn players to positions
 #assign multi posn players in permutations

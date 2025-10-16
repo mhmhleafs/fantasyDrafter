@@ -197,7 +197,7 @@ class GameDay:
 		retString += "["
 		for slot in self.dailyRoster:
 			for player in self.dailyRoster[slot]:
-				retString += f"{slot} : {player.surname}\t"
+				retString += f"{slot} : {player.surname}  |  "
 		retString += "]"
 
 		return retString
@@ -230,7 +230,6 @@ class GameDay:
 	def open_slot_count(self):
 		total = 0
 		for posn in self.open_positions().values():
-			print(self.open_positions())
 			total += posn
 
 		return total
@@ -255,6 +254,7 @@ class GameDay:
 	def current_lineup(self):
 		return self.dailyRoster
 	
+
 	def print_lineup(self):
 		retLines = {
 				'F' : "",
@@ -274,7 +274,7 @@ class GameDay:
 					line = 'X'
 				else:
 					line = 'B'
-				retLines[line] += f"{posn}: {player.surname}\t"
+				retLines[line] += f"{posn}: {player.surname} | "
 
 		for line in retLines.values():
 			print(line)

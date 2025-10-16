@@ -158,6 +158,9 @@ def yh_get_available_positions(sc):
 
 	return positionCounts
 
+def playing_on_day(player, day):
+	return player.team in day.teamsPlaying
+
 def player_array_to_string(players):
 	retString = "["
 	for player in players:
@@ -166,6 +169,20 @@ def player_array_to_string(players):
 		#if there are more players
 		if(player != players[-1]):
 			retString += ", "
+	retString += "]"
+
+	return retString
+
+def player_set_to_string(players):
+	retString = "["
+
+	midString = ""
+	for player in players:
+		midString += f"({player.surname} {player.positions})"
+
+		midString += ", "
+
+	retString += midString[:-2]
 	retString += "]"
 
 	return retString
